@@ -7,7 +7,7 @@ $content = '
 
     </div>
     <div class="small-12">
-ДОБРО ПОЖАЛОВАТЬ В СТУДИЮ ПРАЗДНИКОВ "HappyTime"
+        ДОБРО ПОЖАЛОВАТЬ В СТУДИЮ ПРАЗДНИКОВ "HappyTime"
     </div>
     <div class="small-12">
 

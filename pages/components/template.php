@@ -21,16 +21,14 @@
         <div class="small-12 medium-12 large-12 columns">
             <br />
             <div class="show-for-medium-up medium-3 large-2 columns">
-                <ul class="side-nav" style="height: 100%;">
-                    <?php
-                        if ($sideBarLeft)
-                        {
-                            include($_SERVER['DOCUMENT_ROOT'].$sideBarLeft);
-                        } else {
-                            include($_SERVER['DOCUMENT_ROOT']."/pages/components/sideBarLeft.php");
-                        }
-                    ?>
-                </ul>
+                <?php
+                    if ($sideBarLeft)
+                    {
+                        include($_SERVER['DOCUMENT_ROOT'].$sideBarLeft);
+                    } else {
+                        include($_SERVER['DOCUMENT_ROOT']."/pages/components/sideBarLeft.php");
+                    }
+                ?>
             </div>
             <div class="small-12 medium-6 large-8 columns">
                 <div class="small-12 show-for-small-only columns">

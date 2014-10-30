@@ -49,8 +49,10 @@ function printMenu(&$menu, $activeLink)
 
 function printTitledMenu(&$menu, $header, $activeLink)
 {
+    echo('<ul class="side-nav">');
     echo("<li class=\"heading\">$header</li>");
     printMenu($menu, $activeLink);
+    echo('</ul>');
 }
 
 function printHeaderMenuItem($menu, $header, $isActive, $link, $activeSubLink)
