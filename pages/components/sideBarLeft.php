@@ -1,6 +1,6 @@
-<div class="small-12">
+<div class="small-12" style="background-color: #a0d3e8">
     <p class="text-center">
-        Студия праздников "HappyTime"
+        <?php echo(MSGalterApplicationTitle." ".MSGapplicationTitleQuotes); ?>
     </p>
 
     <p class="text-center" style="font-size: x-small;">
@@ -8,16 +8,18 @@
         У нас Вы сможете найти все необходимое для праздника по выгодным ценам: воздушные шары,
         светящиеся шары (новинка), небесные фонарики, оригинальные и креативные подарки, подарки ручной работы,
         праздничную посуду и аксессуары.
-        Студия праздников "HappyTime" также всегда готова предложить услуги тамады, звукорежиссера, аниматоров с яркими
+        <?php echo(MSGalterApplicationTitle." ".MSGapplicationTitleQuotes); ?> также всегда готова предложить услуги тамады, звукорежиссера, аниматоров с яркими
         номерами, шуточными сценками, забавными конкурсами, песнями с живым исполнением и танцами.
     </p>
 
     <p class="text-center" style="font-size: x-small;">
-        Студия праздников "HappyTime"
+        <?php echo(MSGalterApplicationTitle." ".MSGapplicationTitleQuotes); ?>
     </p>
 
     <p class="text-center">
-        БЕСПЛАТНАЯ ДОСТАВКА!
+        <a href=<?php echo($menuAdditional[MSGorderAndDelivery]["link"]); ?> class="button small">
+            <?php echo(MSGfreeDelivery); ?>
+        </a>
     </p>
 
     <p class="text-center" style="font-size: x-small;">
@@ -28,13 +30,18 @@
         Подробнее
 
     <p class="text-center" style="font-size: x-small;">
-        Студия праздников "HappyTime"
-        Контакты:
-        8 (044) 711-710-4
-        8 (033) 664-29-83
-        Режим работы:
-        9.00-22.00
-        без выходных
+        <?php echo(MSGalterApplicationTitle." ".MSGapplicationTitleQuotes); ?>
+        <?php echo(MSGcontacts); ?>
+        <br />
+        <?php echo(MSGvelcomPhone); ?>
+        <br />
+        <?php echo(MSGmtsPhone); ?>
+        <br />
+        <?php echo(MSGscheduleTitle); ?>
+        <br />
+        <?php echo(MSGworkTime); ?>
+        <br />
+        <?php echo(MSGwithoutWeekEnd); ?>
     </p>
 
     <p class="text-center" style="font-size: x-small;">

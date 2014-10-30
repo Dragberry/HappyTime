@@ -1,7 +1,22 @@
 <?php
-    include('components/messages.php');
-    $title=MSGorderAndDelivery;
-    $activeLink=MSGorderAndDelivery;
-    $activeSubLink="";
-    include('components/template.php');
+include('components/messages.php');
+$title = MSGorderAndDelivery;
+$activeLink = MSGorderAndDelivery;
+$activeSubLink = "";
+$content = '
+<div class="text-center">
+<h3>Правила заказа и доставки:</h3>
+<p>1. Для заказа товаров и услуг необходимо позвонить по контактным телефонам и осуществить заказ.</p>
+<p>'.MSGcontacts
+    .'<br />'
+    . MSGvelcomPhone
+    . '<br />'
+    . MSGmtsPhone
+    . '</p>
+<p>2. Также заказ можно отправить в виде сообщения на e-mail <b>'.MSGemail.'</b>, со списком заказываемых товаров и услуг и контактными данными. После обработки заказа с Вами свяжутся для подтверждения заказа.</p>
+<p>3. Заказ, сделанный до 21.00 доставляется в тот же день. Заказ, сделанный после 21.00 доставляется на следующий день до 14.00.</p>
+<p>4. Более точное время доставки оговаривается с администратором по телелефону.</p>
+<p>5. Доставка осуществляется БЕСПЛАТНО</p>
+ </div>';
+include('components/template.php');
 ?>

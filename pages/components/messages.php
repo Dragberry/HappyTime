@@ -2,7 +2,8 @@
 // general
 define("MSGapplicationTitle", "HappyTime");
 define("MSGapplicationTitleQuotes", "\"HappyTime\"");
-define("MSGholidayStudio", "Студия праздников");
+define("MSGalterApplicationTitle", "Студия праздников");
+define("MSGemail", "HappyTime@mail.ru");
 
 
 // header
@@ -20,14 +21,20 @@ define("MSGorderAndDelivery", "Заказ и доставка");
 define("MSGsiteSearch", "Поиск по сайту");
 define("MSGsearch", "Поиск");
 define("MSGsearchResult", "Результаты поиска");
-// Footer
+// Footer and left sidebar
 define("MSGcopyrights", "Все права защищены.");
 define("MSGthanksForChoosing", "Спасибо, что выбрали нас!");
 define("MSGgoodLuck", "Счастья вам!");
-define("MSGvelcomPhone", "Велком: 8(044) 711-710-4");
-define("MSGmtsPhone", "МТС:    8(033) 664-29-83");
+define("MSGvelcom", "Велком:");
+define("MSGmts", "МТС:");
+define("MSGvelcomPhone", "8 (044) 711-710-4");
+define("MSGmtsPhone", "8 (033) 664-29-83");
 define("MSGscheduleTitle", "Режим работы:");
+define("MSGworkTime", "09.00-22.00");
 define("MSGschedule", "ежедневно с 09.00 до 22.00");
+define("MSGwithoutWeekEnd", "Без выходных");
+define("MSGcontacts", "Контакты:");
+define("MSGfreeDelivery", "Бесплатная доставка");
 
 // Balloons
 define("MSGlightBalloons", "Светящиеся шары");
