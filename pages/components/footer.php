@@ -2,7 +2,7 @@
 <div class="row">
     <div class="large-4 columns">
         <p>
-            <?php echo MSGholidayStudio." ".MSGapplicationTitleQuotes."."; ?>
+            <?php echo MSGalterApplicationTitle." ".MSGapplicationTitleQuotes."."; ?>
             <br />
             <?php echo MSGcopyrights ?>
         </p>

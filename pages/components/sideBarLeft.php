@@ -1,9 +1,9 @@
-<div class="small-12" style="background-color: #a0d3e8">
+<div class="small-12">
     <p class="text-center">
         <?php echo(MSGalterApplicationTitle." ".MSGapplicationTitleQuotes); ?>
     </p>
 
-    <p class="text-center" style="font-size: x-small;">
+    <p class="text-center" style="font-size: small;">
         Мы рады сделать Ваш праздник счастливым и незабываемым!
         У нас Вы сможете найти все необходимое для праздника по выгодным ценам: воздушные шары,
         светящиеся шары (новинка), небесные фонарики, оригинальные и креативные подарки, подарки ручной работы,
@@ -12,25 +12,26 @@
         номерами, шуточными сценками, забавными конкурсами, песнями с живым исполнением и танцами.
     </p>
 
-    <p class="text-center" style="font-size: x-small;">
-        <?php echo(MSGalterApplicationTitle." ".MSGapplicationTitleQuotes); ?>
-    </p>
-
     <p class="text-center">
         <a href=<?php echo($menuAdditional[MSGorderAndDelivery]["link"]); ?> class="button small">
             <?php echo(MSGfreeDelivery); ?>
         </a>
     </p>
 
-    <p class="text-center" style="font-size: x-small;">
+    <p class="text-center" style="font-size: small;">
         НОВИНКА!
+        <br />
         ОРГАНИЗАЦИЯ
         КВЕСТ-ПОЗДРАВЛЕНИЙ,
         КВЕСТ-ПРИЗНАНИЙ В ЛЮБВИ
-        Подробнее
+        <a href=<?php echo($menuActions[MSGoriginalCongratulation]); ?> class="button small">
+            <?php echo("Подробнее"); ?>
+        </a>
+    </p>
 
-    <p class="text-center" style="font-size: x-small;">
+    <p class="text-center" style="font-size: small;">
         <?php echo(MSGalterApplicationTitle." ".MSGapplicationTitleQuotes); ?>
+        <br />
         <?php echo(MSGcontacts); ?>
         <br />
         <?php echo(MSGvelcomPhone); ?>
@@ -44,11 +45,15 @@
         <?php echo(MSGwithoutWeekEnd); ?>
     </p>
 
-    <p class="text-center" style="font-size: x-small;">
+    <p class="text-center" style="font-size: small;">
         ИП "Чуешков Юрий Витальевич"
+        <br />
         г. Минск, ул. Кнорина
+        <br />
         Регистрация от 12.12.2013
+        <br />
         Минский городской исполнительный комитет
-        Регистрация в Торговом реестре Республики Беларусь
+        <br />
+        Регистрация в Торговом реестре Республики Беларусь от
     </p>
 </div>

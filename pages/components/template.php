@@ -20,7 +20,7 @@
         </div>
         <div class="small-12 medium-12 large-12 columns">
             <br />
-            <div class="show-for-medium-up medium-3 large-2 columns">
+            <div class="show-for-medium-up medium-3 large-3 columns">
                 <?php
                     if ($sideBarLeft)
                     {
@@ -30,7 +30,7 @@
                     }
                 ?>
             </div>
-            <div class="small-12 medium-6 large-8 columns">
+            <div class="small-12 medium-6 large-7 columns">
                 <div class="small-12 show-for-small-only columns">
                     <?php
                         if ($activeSubLink && $activeLink)

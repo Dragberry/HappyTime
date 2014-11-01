@@ -1,6 +1,13 @@
 $thumbnail-search-size: 200px;
+$thumbnail-home-size: 100%;
 
 .search-image {
   max-width: $thumbnail-search-size;
   max-height: $thumbnail-search-size;
 }
+
+.home-image {
+  max-width: $thumbnail-home-size;
+  max-height: $thumbnail-home-size;
+}
+

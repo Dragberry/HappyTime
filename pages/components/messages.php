@@ -4,6 +4,7 @@ define("MSGapplicationTitle", "HappyTime");
 define("MSGapplicationTitleQuotes", "\"HappyTime\"");
 define("MSGalterApplicationTitle", "Студия праздников");
 define("MSGemail", "HappyTime@mail.ru");
+define("MSGurl", "HappyTime.by");
 
 
 // header
