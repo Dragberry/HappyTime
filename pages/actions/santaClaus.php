@@ -144,7 +144,7 @@ $content = '
         </div>
         <div class="row valign-middle">
             <div class="small-12 medium-4 large-4 columns">
-                <img class="home-image" src="/images/actions/santaCalling.png">
+                <img class="home-image" src="/images/actions/santa_calling.png">
             </div>
             <div class="small-12 medium-4 large-4 columns">
                 <h4>
@@ -152,7 +152,7 @@ $content = '
                 </h4>
             </div>
             <div class="small-12 medium-4 large-4 columns">
-                <img class="home-image" src="/images/actions/christmasTree.png">
+                <img class="home-image" src="/images/actions/christmas_tree.png">
             </div>
         </div>
     </div>

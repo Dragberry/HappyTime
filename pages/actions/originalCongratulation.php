@@ -34,7 +34,7 @@ $content = '
                 Данная игра может проходить под различными тематиками.
                 ' .MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . ' поможет Вам полностью в выборе тематики игры, разработке карт, испытаний, пикетов, составит маршрут и маршрутные листы и организует все задуманное Вами.
             </p>
-            <img class="home-image" src="/images/actions/giftMap.png">
+            <img class="home-image" src="/images/actions/gift_map.png">
         </div>
     </div>
 ';
