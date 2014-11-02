@@ -1,4 +1,5 @@
 <?php
+// Left menu
 $menuBalloons = array(
     MSGlightBalloons => array("link" => "/pages/balloons/light.php", visibility => true),
     MSGroundBalloons => array("link" => "/pages/balloons/round.php", visibility => true),
@@ -20,19 +21,27 @@ $menuAccessories = array(
 );
 
 $menuActions = array(
+    MSGanimatorAndToastmasterAndSoundman => array("link" => "/pages/actions/party.php",  visibility => true),
     MSGsantaClaus => array("link" => "/pages/actions/santaClaus.php",  visibility => true),
-    MSGoriginalCongratulation => array("link" => "/pages/actions/originalCongratulation.php",  visibility => false)
+    MSGoriginalCongratulation => array("link" => "/pages/actions/originalCongratulation.php",  visibility => true)
+
 );
 
 $menu = array(
     MSGballoons => array("subMenu" => $menuBalloons, "link" => "/pages/balloons/general.php", visibility => true),
-    MSGoriginalGifts => array("subMenu" => $menuOriginalGifts, "link" => "/pages/originalGifts/general.php", visibility => false),
-    MSGholidayAccessories => array("subMenu" => $menuAccessories, "link" => "/pages/accessories/general.php", visibility => false),
+    MSGoriginalGifts => array("subMenu" => $menuOriginalGifts, "link" => "/pages/originalGifts/general.php", visibility => true),
+    MSGholidayAccessories => array("subMenu" => $menuAccessories, "link" => "/pages/accessories/general.php", visibility => true),
     MSGаnimatorsAndToastmaster => array("subMenu" => $menuActions, "link" => "/pages/actions/general.php", visibility => true)
+);
+// Right menu
+$menuPromotions = array(
+    MSGactions => array("link" => "/pages/promotions/actions.php", visibility => true),
+    MSGdiscountCards => array("link" => "/pages/promotions/discountCards.php", visibility => true),
+    MSGgiftCertificates => array("link" => "/pages/promotions/giftCertificates.php", visibility => true)
 );
 
 $menuAdditional = array(
-    MSGpromotions => array("subMenu" => array(), "link" => "/pages/promotions.php", visibility => true),
+    MSGpromotions => array("subMenu" => $menuPromotions, "link" => "/pages/promotions/actions.php", visibility => true),
     MSGaboutUs => array("subMenu" => array(), "link" => "/pages/about.php", visibility => true),
     MSGorderAndDelivery => array("subMenu" => array(), "link" => "/pages/orderAndDelivery.php", visibility => true)
 );

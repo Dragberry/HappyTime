@@ -126,13 +126,13 @@ $content = '
         <div class="small-12 medium-12 large-12 columns">
             Цены
         </div>
-        <div class="row valign-middle">
-            <div class="small-12 medium-6 large-6 panel columns">
+        <div class="row">
+            <div class="small-12 medium-6 large-6 panel columns" style="height: 10em">
                 <b>Дед Мороз и Снегурочка на корпоратив:</b>
                 <br />
                 1 час - 400.000 рублей
             </div>
-            <div class="small-12 medium-6 large-6 panel columns">
+            <div class="small-12 medium-6 large-6 panel columns" style="height: 10em">
                 <b>Дед Мороз и Снегурочка на корпоратив с Тамадой:</b>
                 <br />
                 2 часа - 700.000 рублей

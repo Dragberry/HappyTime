@@ -56,6 +56,12 @@ define("MSGallAccessories", "Все аксессуары");
 // Animators and Toastmaster
 define("MSGsantaClaus", "Дед Мороз и Снегурочка");
 define("MSGoriginalCongratulation", "Оригинальное поздравление и признание в любви");
+define("MSGanimatorAndToastmasterAndSoundman", "Аниматор, тамада и звукорежиссер");
+
+// Promotions
+define("MSGactions", "Акции");
+define("MSGdiscountCards", "Скидочные карты");
+define("MSGgiftCertificates", "Подарочные сертификаты");
 
 //Search Result
 define("MSGoffer", "Услуга/Товар");
