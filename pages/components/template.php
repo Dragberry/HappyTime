@@ -1,5 +1,8 @@
 <?php
-    header("Content-Type: text/html; charset=utf-8");
+    header('Content-Type: text/html; charset=utf-8');
+    if ($urlToRedirect) {
+        header('Location: ' . $urlToRedirect);
+    }
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -65,7 +68,7 @@
     <div class="page-buffer"></div>
     </div>
     <div class="page-footer row">
-        <div class="large-12 columns">
+        <div class="small-12 medium-12 large-12 columns">
             <?php include($_SERVER['DOCUMENT_ROOT']."/pages/components/footer.php"); ?>
         </div>
     </div>

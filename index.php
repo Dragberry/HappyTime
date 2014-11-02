@@ -1,5 +1,6 @@
 <?php
 include('pages/components/messages.php');
+$urlToRedirect='/pages/actions/santaClaus.php';
 $title = MSGholidayStudio;
 $content = '
 <div class="row">

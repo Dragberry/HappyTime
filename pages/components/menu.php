@@ -1,56 +1,58 @@
 <?php
 $menuBalloons = array(
-    MSGlightBalloons => "/pages/balloons/light.php",
-    MSGroundBalloons => "/pages/balloons/round.php",
-    MSGmodellingBalloons => "/pages/balloons/modelling.php",
-    MSGbouquetBalloons => "/pages/balloons/bouquet.php",
-    MSGlettersBalloons => "/pages/balloons/letters.php",
-    MSGweddingBalloons => "/pages/balloons/wedding.php",
-    MSGinscriptionBalloons => "/pages/balloons/inscription.php",
-    MSGheliumBalloons => "/pages/balloons/helium.php"
+    MSGlightBalloons => array("link" => "/pages/balloons/light.php", visibility => true),
+    MSGroundBalloons => array("link" => "/pages/balloons/round.php", visibility => true),
+    MSGmodellingBalloons => array("link" => "/pages/balloons/modelling.php", visibility => true),
+    MSGbouquetBalloons => array("link" => "/pages/balloons/bouquet.php", visibility => true),
+    MSGlettersBalloons => array("link" => "/pages/balloons/letters.php", visibility => true),
+    MSGweddingBalloons => array("link" => "/pages/balloons/wedding.php", visibility => true),
+    MSGinscriptionBalloons => array("link" => "/pages/balloons/inscription.php", visibility => true),
+    MSGheliumBalloons => array("link" => "/pages/balloons/helium.php", visibility => true)
 );
 
 $menuOriginalGifts = array();
 
 $menuAccessories = array(
-    MSGaccessoriesForWedding => "/pages/accessories/wedding.php",
-    MSGaccessoriesForBirthday => "/pages/accessories/birthday.php",
-    MSGaccessoriesForNewYear => "/pages/accessories/newYear.php",
-    MSGallAccessories => "/pages/accessories/all.php"
+    MSGaccessoriesForWedding => array("link" => "/pages/accessories/wedding.php", visibility => true),
+    MSGaccessoriesForBirthday => array("link" => "/pages/accessories/birthday.php", visibility => true),
+    MSGaccessoriesForNewYear => array("link" => "/pages/accessories/newYear.php", visibility => true),
+    MSGallAccessories => array("link" => "/pages/accessories/all.php", visibility => true)
 );
 
 $menuActions = array(
-    MSGsantaClaus => "/pages/actions/santaClaus.php",
-    MSGoriginalCongratulation => "/pages/actions/originalCongratulation.php"
+    MSGsantaClaus => array("link" => "/pages/actions/santaClaus.php",  visibility => true),
+    MSGoriginalCongratulation => array("link" => "/pages/actions/originalCongratulation.php",  visibility => false)
 );
 
 $menu = array(
-    MSGballoons => array("subMenu" => $menuBalloons, "link" => "/pages/balloons/general.php"),
-    MSGoriginalGifts => array("subMenu" => $menuOriginalGifts, "link" => "/pages/originalGifts/general.php"),
-    MSGholidayAccessories => array("subMenu" => $menuAccessories, "link" => "/pages/accessories/general.php"),
-    MSGаnimatorsAndToastmaster => array("subMenu" => $menuActions, "link" => "/pages/actions/general.php")
+    MSGballoons => array("subMenu" => $menuBalloons, "link" => "/pages/balloons/general.php", visibility => true),
+    MSGoriginalGifts => array("subMenu" => $menuOriginalGifts, "link" => "/pages/originalGifts/general.php", visibility => false),
+    MSGholidayAccessories => array("subMenu" => $menuAccessories, "link" => "/pages/accessories/general.php", visibility => false),
+    MSGаnimatorsAndToastmaster => array("subMenu" => $menuActions, "link" => "/pages/actions/general.php", visibility => true)
 );
 
 $menuAdditional = array(
-    MSGaboutUs => array("subMenu" => array(), "link" => "/pages/about.php"),
-    MSGorderAndDelivery => array("subMenu" => array(), "link" => "/pages/orderAndDelivery.php")
+    MSGpromotions => array("subMenu" => array(), "link" => "/pages/promotions.php", visibility => true),
+    MSGaboutUs => array("subMenu" => array(), "link" => "/pages/about.php", visibility => true),
+    MSGorderAndDelivery => array("subMenu" => array(), "link" => "/pages/orderAndDelivery.php", visibility => true)
 );
 
 function printMenu(&$menu, $activeLink)
 {
     foreach ($menu as $key => $value) {
-        if (strcmp($activeLink, $key) == 0) {
-            echo("<li class=\"active\"><a href=\"$value\">$key</a></li>");
-        } else {
-            echo("<li><a href=\"$value\">$key</a></li>");
-        }
+        if ($value["visibility"] == true)
+            if (strcmp($activeLink, $key) == 0) {
+                echo('<li class="active"><a href=' . $value["link"] . '>' . $key . '</a></li>');
+            } else {
+                echo('<li><a href=' . $value["link"] . '>' . $key . '</a></li>');
+            }
     }
 }
 
 function printTitledMenu(&$menu, $header, $activeLink)
 {
     echo('<ul class="side-nav">');
-    echo("<li class=\"heading\">$header</li>");
+    echo('<li class="heading">' . $header . '</li>');
     printMenu($menu, $activeLink);
     echo('</ul>');
 }
@@ -58,14 +60,15 @@ function printTitledMenu(&$menu, $header, $activeLink)
 function printHeaderMenuItem($menu, $header, $isActive, $link, $activeSubLink)
 {
     $active = $isActive ? " active" : "";
-    echo("<li class=\"has-dropdown $active\">");
-    echo("<a href=\"$link\">$header</a>");
+    $hasDropdown = $menu ? "has-dropdown" : "";
+    echo('<li class="'. $hasDropdown . $active .'">');
+    echo('<a href="' . $link .'">' . $header . '</a>');
     if ($menu) {
-        echo("<ul class=\"dropdown\">");
+        echo('<ul class="dropdown">');
         printMenu($menu, $activeSubLink);
-        echo("</ul>");
+        echo('</ul>');
     }
-    echo("</li>");
+    echo('</li>');
 }
 
 function printHeaderMenu($menu, $activeLink, $activeSubLink)
@@ -77,6 +80,8 @@ function printHeaderMenu($menu, $activeLink, $activeSubLink)
         } else {
             $isActive = false;
         }
-        printHeaderMenuItem($value["subMenu"], $key, $isActive, $value["link"], $activeSubLink);
+        if ($value["visibility"] == true) {
+            printHeaderMenuItem($value["subMenu"], $key, $isActive, $value["link"], $activeSubLink);
+        }
     }
 }

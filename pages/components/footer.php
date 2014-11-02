@@ -1,13 +1,13 @@
 <hr/>
 <div class="row">
-    <div class="large-4 columns">
+    <div class="show-for-medium-up medium-4  large-4 columns">
         <p>
             <?php echo MSGalterApplicationTitle." ".MSGapplicationTitleQuotes."."; ?>
             <br />
             <?php echo MSGcopyrights ?>
         </p>
     </div>
-    <div class="large-4 columns">
+    <div class="small-12 medium-4 large-4 columns">
         <div class="text-center">
             <p>
                 <?php echo MSGthanksForChoosing; ?>
@@ -16,8 +16,8 @@
             </p>
         </div>
     </div>
-    <div class="large-4 columns right">
-        <div class="right">
+    <div class="show-for-medium-up medium-4 large-4 columns ">
+        <div class="right text-center">
             <p>
                 <?php echo MSGvelcomPhone; ?>
                 <br />
