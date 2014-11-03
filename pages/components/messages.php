@@ -1,11 +1,10 @@
 <?php
 // general
 define("MSGapplicationTitle", "HappyTime");
-define("MSGapplicationTitleQuotes", "\"HappyTime\"");
+define("MSGapplicationTitleQuotes", "\"" . MSGapplicationTitle . "\"");
 define("MSGalterApplicationTitle", "Студия праздников");
 define("MSGemail", "HappyTime@mail.ru");
 define("MSGurl", "HappyTime.by");
-
 
 // header
 define("MSGslogan", "Счастливый праздник - в любое время");

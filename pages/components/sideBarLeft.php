@@ -24,7 +24,7 @@
         ОРГАНИЗАЦИЯ
         КВЕСТ-ПОЗДРАВЛЕНИЙ,
         КВЕСТ-ПРИЗНАНИЙ В ЛЮБВИ
-        <a href=<?php echo($menuActions[MSGoriginalCongratulation]); ?> class="button small">
+        <a href=<?php echo($menuActions[MSGoriginalCongratulation]["link"]); ?> class="button small">
             <?php echo("Подробнее"); ?>
         </a>
     </p>

@@ -1,6 +1,9 @@
 <?php include("menu.php") ?>
-<div class="panel">
-    <h3><?php echo MSGapplicationTitle.": \"".MSGslogan."\"" ?></h3>
+<div>
+    <div class="header">
+        <div><img class="home-image" src="/images/header_1.png"></div>
+        <div><img class="home-image" src="/images/header_2.png"></div>
+    </div>
 </div>
 <nav class="top-bar" data-topbar role="navigation">
     <ul class="title-area">

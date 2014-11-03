@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php echo MSGapplicationTitle." - ".$title; ?></title>
     <link rel="stylesheet" href="/stylesheets/app.css" />
+    <link rel="stylesheet" type="text/css" href="/bower_components/slick/slick.css"/>
     <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -74,5 +75,6 @@
     </div>
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/foundation/js/foundation.min.js"></script>
+    <script type="text/javascript" src="/bower_components/slick/slick.min.js"></script>
     <script src="/js/app.js"></script>
 <body>
