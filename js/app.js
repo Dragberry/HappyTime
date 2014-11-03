@@ -7,3 +7,9 @@ $(document).ready(function(){
         autoplaySpeed: 2000
     });
 });
+$(function(){
+    $.datepicker.setDefaults(
+        $.extend($.datepicker.regional["ru"])
+    );
+    $("#mainCalendar").datepicker();
+});

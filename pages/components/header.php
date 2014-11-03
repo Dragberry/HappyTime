@@ -1,8 +1,8 @@
 <?php include("menu.php") ?>
 <div>
     <div class="header">
-        <div><img class="home-image" src="/images/header_1.png"></div>
-        <div><img class="home-image" src="/images/header_2.png"></div>
+        <div><a class="" href=""><img class="home-image" src="/images/header_1.png"></a></div>
+        <div><a class="" href=""><img class="home-image" src="/images/header_2.png"><a class="" href=""></div>
     </div>
 </div>
 <nav class="top-bar" data-topbar role="navigation">
@@ -12,7 +12,7 @@
         </li>
     </ul>
     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span><?php echo MSGmenu ?></span></a></li>
+    <li class="toggle-topbar"><a href="#"><span></span></a></li>
     <section class="top-bar-section">
         <!-- Right Nav Section -->
         <ul class="right">

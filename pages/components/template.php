@@ -10,13 +10,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php echo MSGapplicationTitle." - ".$title; ?></title>
+    <link rel="stylesheet" type="text/css" href="/bower_components/jquery-ui/jquery-ui.min.css"/>
     <link rel="stylesheet" href="/stylesheets/app.css" />
     <link rel="stylesheet" type="text/css" href="/bower_components/slick/slick.css"/>
     <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
-
-
     <div class="page-wrapper">
         <div class="row">
         <div class="large-12 columns">
@@ -74,6 +73,8 @@
         </div>
     </div>
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/bower_components/jquery-ui/i18n/ui.datepicker-ru.js"></script>
     <script src="/bower_components/foundation/js/foundation.min.js"></script>
     <script type="text/javascript" src="/bower_components/slick/slick.min.js"></script>
     <script src="/js/app.js"></script>

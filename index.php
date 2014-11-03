@@ -1,6 +1,6 @@
 <?php
 include('pages/components/messages.php');
-$title = MSGholidayStudio;
+$title = MSGalterApplicationTitle;
 $content = '
 <div class="row">
     <div class="small-12 medium-12 large-12 columns">
@@ -20,14 +20,14 @@ $content = '
     </div>
     <div class="small-12 medium-5 large-3 columns text-center">
         <a class="" href="">
-            <img class="home-image" src="/images/balloons/balloon_bouquet.png">
+            <img class="full-image" src="/images/balloons/balloon_bouquet.png">
         </a>
     </div>
 </div>
 <div class="row valign-middle">
     <div class="small-12 medium-5 large-3 columns text-center">
         <a class="" href="">
-            <img class="home-image" src="/images/clown.png">
+            <img class="full-image" src="/images/clown.png">
         </a>
     </div>
     <div class="small-12 medium-7 large-6 columns text-center">
@@ -42,14 +42,14 @@ $content = '
     </div>
     <div class="small-12 medium-5 large-3 columns text-center">
         <a class="" href="">
-            <img class="home-image" src="/images/party.png">
+            <img class="full-image" src="/images/party.png">
         </a>
     </div>
 </div>
 <div class="row valign-middle">
     <div class="small-12 medium-5 large-3 columns text-center">
         <a class="" href="">
-            <img class="home-image" src="/images/gift.png">
+            <img class="full-image" src="/images/gift.png">
         </a>
     </div>
     <div class="small-12 medium-7 large-6 columns text-center">
