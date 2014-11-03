@@ -14,7 +14,11 @@ $include-html-top-bar-classes: $include-html-classes !default;
 
 // Background color for the top bar
 $topbar-bg-color: $oil !default;
-$topbar-bg: $topbar-bg-color !default;
+$topbar-bg-image: url('/images/tools/background_top_bar.png') repeat-x;
+$topbar-bg-image-active: url('/images/tools/background_top_bar_active.png') repeat-x;
+$topbar-bg-image-hover: url('/images/tools/background_top_bar_hover.png') repeat-x;
+$topbar-bg: $topbar-bg-image !default;
+
 
 // Height and margin
 $topbar-height: 45px !default;
@@ -33,10 +37,10 @@ $topbar-link-weight: $font-weight-normal !default;
 $topbar-link-font-size: rem-calc(13) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
-$topbar-link-bg-hover: #272727 !default;
-$topbar-link-bg-color-hover: $charcoal !default;
-$topbar-link-bg-active: $primary-color !default;
-$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%) !default;
+$topbar-link-bg-hover: $topbar-bg-image-hover !default;
+$topbar-link-bg-color-hover: $topbar-bg-image-hover !default;
+$topbar-link-bg-active: $topbar-bg-image-active !default;
+$topbar-link-bg-active-hover: $topbar-bg-image-active !default;
 $topbar-link-font-family: $body-font-family !default;
 $topbar-link-text-transform: none !default;
 $topbar-link-padding: $topbar-height / 5 !default;
@@ -46,10 +50,10 @@ $topbar-button-font-size: 0.75rem !default;
 $topbar-button-top: 7px !default;
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: $oil !default;
+$topbar-dropdown-bg: $topbar-bg-image !default;
 $topbar-dropdown-link-color: $white !default;
 $topbar-dropdown-link-color-hover: $topbar-link-color-hover !default;
-$topbar-dropdown-link-bg: $oil !default;
+$topbar-dropdown-link-bg: $topbar-bg-image !default;
 $topbar-dropdown-link-weight: $font-weight-normal !default;
 $topbar-dropdown-toggle-size: 5px !default;
 $topbar-dropdown-toggle-color: $white !default;

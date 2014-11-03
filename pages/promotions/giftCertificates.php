@@ -1,6 +1,6 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
-$activeLink=$promotionsMenu;
+$activeLink=MSGpromotions;
 $activeSubLink=MSGgiftCertificates;
 $content = '
 

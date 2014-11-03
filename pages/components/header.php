@@ -1,8 +1,12 @@
 <?php include("menu.php") ?>
 <div>
     <div class="header">
-        <div><a class="" href=""><img class="home-image" src="/images/header_1.png"></a></div>
-        <div><a class="" href=""><img class="home-image" src="/images/header_2.png"><a class="" href=""></div>
+        <div><a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "\""); ?>>
+                <img class="home-image" src="/images/banners/santa_in_office.png">
+            </a>
+        </div>
+        <div><a class="" href=""><img class="home-image" src="/images/banners/header_1.png"></a></div>
+        <div><a class="" href=""><img class="home-image" src="/images/banners/header_2.png"><a class="" href=""></div>
     </div>
 </div>
 <nav class="top-bar" data-topbar role="navigation">
@@ -17,18 +21,23 @@
         <!-- Right Nav Section -->
         <ul class="right">
             <?php printHeaderMenu($menuAdditional, $activeLink, $activeSubLink); ?>
-            <li class="has-form">
+            <li class="has-form search-bar">
                 <form id="search" method="get"  action="/pages/search.php">
                     <div class="row collapse">
-                            <div class="large-8 small-9 columns">
-                                <input name="searchRequest" type="text" placeholder=<?php echo "\"".MSGsiteSearch."\"" ?>>
+                            <div class="large-2 small-9 columns">
+                                <br />
                             </div>
-                            <div class="large-4 small-3 columns">
-                                <a onclick="document.getElementById('search').submit();return false;" class="alert button expand">
-                                    <?php echo MSGsearch ?>
+                            <div class="large-8 small-9 columns">
+                                <input name="searchRequest"
+                                       class="search-input"
+                                       type="text"
+                                       placeholder=<?php echo "\"".MSGsiteSearch."\"" ?>>
+                            </div>
+                            <div class="large-2 small-3 columns">
+                                <a onclick="document.getElementById('search').submit();return false;">
+                                    <img src="/images/tools/search_icon.png" class="search-icon" style="">
                                 </a>
                             </div>
-
                     </div>
                 </form>
             </li>
