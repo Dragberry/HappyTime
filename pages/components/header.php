@@ -12,7 +12,7 @@
             </a>
         </div>
         <div>
-            <a class="" href="/index.php"); ?>>
+            <a class="" href="/index.php">
                 <img class="home-image" src="/images/banners/santa_in_office.png">
             </a>
         </div>
@@ -33,10 +33,7 @@
             <li class="has-form search-bar">
                 <form id="search" method="get"  action="/pages/search.php">
                     <div class="row collapse">
-                            <div class="large-2 small-9 columns">
-                                <br />
-                            </div>
-                            <div class="large-8 small-9 columns">
+                            <div class="large-10 small-9 columns">
                                 <input name="searchRequest"
                                        class="search-input"
                                        type="text"

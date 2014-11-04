@@ -10,6 +10,12 @@
 
 $include-html-nav-classes: $include-html-classes !default;
 
+$side-nav-bg: #ACAAD3;
+$side-nav-bg-active: #58557A;
+$side-nav-bg-hover: scale-color($side-nav-bg-active, $lightness: 40%);
+$side-nav-border-radius: 1em;
+$side-nav-border: 0px solid;
+
 // We use this to control padding.
 $side-nav-padding: rem-calc(14 0) !default;
 
@@ -19,9 +25,9 @@ $side-nav-list-position: outside !default;
 $side-nav-list-margin: rem-calc(0 0 7 0) !default;
 
 // We use these to control link styles.
-$side-nav-link-color: $primary-color !default;
-$side-nav-link-color-active: scale-color($side-nav-link-color, $lightness: 30%) !default;
-$side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%) !default;
+$side-nav-link-color: #330033 !default;
+$side-nav-link-color-active: #330033 !default;
+$side-nav-link-color-hover: #330033 !default;
 $side-nav-link-bg-hover: hsla(0, 0, 0, 0.025) !default;
 $side-nav-link-margin: 0 !default;
 $side-nav-link-padding: rem-calc(7 14) !default;
@@ -41,6 +47,15 @@ $side-nav-heading-text-transform: uppercase !default;
 $side-nav-divider-size: 1px !default;
 $side-nav-divider-style: solid !default;
 $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
+
+
+.left-side-bar {
+  background-color: $side-nav-bg;
+  border-radius: $side-nav-border-radius;
+  -webkit-box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 15px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 15px 0px rgba(50, 50, 50, 0.75);
+}
 
 
 //
@@ -75,17 +90,26 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
     a:not(.button) {
       display: block;
       color: $link-color;
+      font-style: italic;
+      font-weight: bold;
       margin: $side-nav-link-margin;
       padding: $side-nav-link-padding;
       &:hover,
       &:focus {
         background: $link-bg-hover;
         color: $link-color-hover;
+        background-color: $side-nav-bg-hover;
+        border-radius: $side-nav-border-radius;
       }
     }
 
     &.active > a:first-child:not(.button) {
-      color: $side-nav-link-color-active;
+      color: #ffffff;
+      font-style: italic;
+      font-weight: bold;
+      background-color: $side-nav-bg-active;
+      border-radius: $side-nav-border-radius;
+      border: $side-nav-border;
       font-weight: $side-nav-font-weight-active;
       font-family: $side-nav-font-family-active;
     }
@@ -100,6 +124,7 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
 
     &.heading {
       color: $side-nav-heading-color;
+      background-color: $side-nav-bg;
       font: {
         size: $side-nav-heading-font-size;
         weight: $side-nav-heading-font-weight;

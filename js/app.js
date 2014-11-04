@@ -4,7 +4,8 @@ $(document).foundation();
 $(document).ready(function(){
     $('.header').slick({
         autoplay: true,
-        autoplaySpeed: 3500
+        autoplaySpeed: 3500,
+        speed: 1000
     });
 });
 $(function(){

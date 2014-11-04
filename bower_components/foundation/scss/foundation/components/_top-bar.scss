@@ -31,16 +31,20 @@ $topbar-title-font-size: rem-calc(17) !default;
 // Set the link colors and styles for top-level nav
 $topbar-link-color: $white !default;
 $topbar-link-color-hover: $white !default;
-$topbar-link-color-active: $white !default;
-$topbar-link-color-active-hover: $white !default;
-$topbar-link-weight: $font-weight-normal !default;
+$topbar-link-color-active: #330033 !default;
+$topbar-link-font-weight-active: bold !default;
+$topbar-link-font-style-active: italic !default;
+$topbar-link-color-active-hover: #330033 !default;
+$topbar-link-font-weight-active-hover: bold !default;
+$topbar-link-font-style-active-hover: italic !default;
+$topbar-link-weight: $font-weight-bold !default;
 $topbar-link-font-size: rem-calc(13) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
 $topbar-link-bg-hover: $topbar-bg-image-hover !default;
 $topbar-link-bg-color-hover: $topbar-bg-image-hover !default;
 $topbar-link-bg-active: $topbar-bg-image-active !default;
-$topbar-link-bg-active-hover: $topbar-bg-image-active !default;
+$topbar-link-bg-active-hover: $topbar-bg-image-hover !default;
 $topbar-link-font-family: $body-font-family !default;
 $topbar-link-text-transform: none !default;
 $topbar-link-padding: $topbar-height / 5 !default;
@@ -53,8 +57,8 @@ $topbar-button-top: 7px !default;
 $topbar-dropdown-bg: $topbar-bg-image !default;
 $topbar-dropdown-link-color: $white !default;
 $topbar-dropdown-link-color-hover: $topbar-link-color-hover !default;
-$topbar-dropdown-link-bg: $topbar-bg-image !default;
-$topbar-dropdown-link-weight: $font-weight-normal !default;
+$topbar-dropdown-link-bg: #ff7cd8 !default;
+$topbar-dropdown-link-weight: $font-weight-bold !default;
 $topbar-dropdown-toggle-size: 5px !default;
 $topbar-dropdown-toggle-color: $white !default;
 $topbar-dropdown-toggle-alpha: 0.4 !default;
@@ -317,6 +321,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           font-family: $topbar-link-font-family;
           font-size: $topbar-link-font-size;
           font-weight: $topbar-link-weight;
+          font-style: italic;
           text-transform: $topbar-link-text-transform;
 
 
@@ -358,15 +363,22 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         &.active > a {
           background: $topbar-link-bg-active;
           color: $topbar-link-color-active;
+          font-weight: $topbar-link-font-weight-active;
+          font-style: $topbar-link-font-style-active;
           &:hover {
                 background: $topbar-link-bg-active-hover;
                 color: $topbar-link-color-active-hover;
+                font-weight: $topbar-link-font-weight-active-hover;
+                font-style: $topbar-link-font-style-active-hover;
           }
         }
       }
 
       // Add some extra padding for list items contains buttons
-      .has-form { padding: $topbar-link-padding; }
+      .has-form { 
+        padding: 2px;
+        max-width: 12em;
+      }
 
       // Styling for list items that have a dropdown within them.
       .has-dropdown {
@@ -520,9 +532,13 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               line-height: $topbar-height;
               color: $topbar-link-color-active;
               background: $topbar-link-bg-active;
+              font-weight: $topbar-link-font-weight-active;
+              font-style: $topbar-link-font-style-active;
               &:hover {
                 background: $topbar-link-bg-active-hover;
                 color: $topbar-link-color-active-hover;
+                font-weight: $topbar-link-font-weight-active-hover;
+                font-style: $topbar-link-font-style-active-hover;
               }
             }
           }
@@ -670,6 +686,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           &:active > a {
             background: $topbar-link-bg-active;
             color: $topbar-link-color-active;
+            font-weight: $topbar-link-font-weight-active;
+            font-style: $topbar-link-font-style-active;
           }
         }
 

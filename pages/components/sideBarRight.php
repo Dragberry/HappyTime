@@ -1,13 +1,15 @@
 <?php
-    function getRandomAction() {
+    function getRandomAction($link) {
         $content = '
             <div class="text-center">
                 ВНИМАНИЕ!
                 <br />
                 АКЦИЯ!
                 <br />
-                Закажи подарки на сумму свыше 100.000 рублей и получи MP3-плеер в подарок!
-                <img class="full-image" src="/images/actions/player_mp3.png">
+                При бронировании Деда Мороза до 15 ноября каждому ребенку подарок!
+                <a class="" href="' . $link . '">
+                    <img class="full-image" src="/images/promotions/gift.png">
+                </div>
             </div>
         ';
         return $content;
@@ -20,5 +22,5 @@
 </div>
 <br />
 <div>
-    <?php echo(getRandomAction()); ?>
+    <?php echo(getRandomAction($menuActions[MSGsantaClaus]["link"])); ?>
 </div>
