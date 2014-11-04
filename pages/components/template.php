@@ -15,7 +15,13 @@
     <link rel="stylesheet" type="text/css" href="/bower_components/slick/slick.css"/>
     <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
+
 <body>
+<style>
+    body {}
+
+</style>
+
     <div class="page-wrapper">
         <div class="row">
         <div class="large-12 columns">

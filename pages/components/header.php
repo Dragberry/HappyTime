@@ -1,12 +1,21 @@
 <?php include("menu.php") ?>
 <div>
     <div class="header">
-        <div><a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "\""); ?>>
+        <div>
+            <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "\""); ?>>
+                <img class="home-image" src="/images/banners/santa_in_home.png">
+            </a>
+        </div>
+        <div>
+            <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "\""); ?>>
+                <img class="home-image" src="/images/banners/info.png">
+            </a>
+        </div>
+        <div>
+            <a class="" href="/index.php"); ?>>
                 <img class="home-image" src="/images/banners/santa_in_office.png">
             </a>
         </div>
-        <div><a class="" href=""><img class="home-image" src="/images/banners/header_1.png"></a></div>
-        <div><a class="" href=""><img class="home-image" src="/images/banners/header_2.png"><a class="" href=""></div>
     </div>
 </div>
 <nav class="top-bar" data-topbar role="navigation">
