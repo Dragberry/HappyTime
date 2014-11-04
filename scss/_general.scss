@@ -1,5 +1,6 @@
+@import "settings";
+
 $footer-height: 160px;
-$body-font-color: 160px;
 
 html, body {
   height: 100%;
@@ -9,7 +10,7 @@ html, body {
 
 .row {
   .header {
-    background-color: #ebe9f9;
+    background-color: $body-bg;
     padding: 0;
   }
 }
@@ -55,5 +56,11 @@ html, body {
   .search-input {
     border-radius: 10px;
   }
+}
 
+.price-panel {
+  background-color: $custom-panel-light-bg;
+  color: $black;
+  border-radius: 1em;
+  padding: 1em 0.5em;
 }

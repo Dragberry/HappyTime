@@ -5,6 +5,7 @@ define("MSGapplicationTitleQuotes", "\"" . MSGapplicationTitle . "\"");
 define("MSGalterApplicationTitle", "Студия праздников");
 define("MSGemail", "HappyTime@mail.ru");
 define("MSGurl", "HappyTime.by");
+define("MSGprice", "Цены:");
 
 // header
 define("MSGslogan", "Счастливый праздник - в любое время");

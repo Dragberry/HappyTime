@@ -113,7 +113,21 @@ $include-html-global-classes: $include-html-classes;
 // $tuatara     : #444444;
 // $oil         : #333333;
 // $jet         : #222222;
-// $black       : #000000;
+$black       : #000000;
+
+//Warm pink theme
+//$body-bg: #c1bfea;
+
+
+// Dark bkue theme
+$custom-body-bg: #036;
+$custom-panel-bg: #3A6691;
+$custom-panel-light-bg: #74bfdd;
+$custom-panel-opacity: 0.8;
+$custom-header-main-text-color: #fc0;
+$custom-header-minor-text-color: #F7DD74;
+$custom-text-color: #fff;
+$custom-font-family: "Comic Sans MS", cursive, sans-serif;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
@@ -124,9 +138,9 @@ $include-html-global-classes: $include-html-classes;
 // $info-color: #a0d3e8;
 
 // We use these to control various global styles
-   $body-bg: #c1bfea;
-// $body-font-color: $jet;
-// $body-font-family: $font-family-sans-serif;
+ $body-bg: $custom-body-bg;
+ $body-font-color: $custom-text-color;
+ $body-font-family: $custom-font-family;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 

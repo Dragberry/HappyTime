@@ -24,12 +24,12 @@ $content = '
             </p>
         </div>
         <div class="small-12 medium-12 large-12 columns">
-            Цены
+           <h5>' . MSGprice . '</h5>
         </div>
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
         </div>
-        <div class="small-12 medium-8 large-6 panel columns">
+        <div class="small-12 medium-8 large-6 price-panel columns">
             <b>Поздравление на дом:</b>
             <br />
             до 25 декабря - 250.000 рублей
@@ -64,24 +64,28 @@ $content = '
             </p>
         </div>
         <div class="small-12 medium-12 large-12 columns">
-            Цены
+            <h5>' . MSGprice . '</h5>
         </div>
-        <div class="row valign-middle">
-            <div class="small-12 medium-6 large-6 panel columns" style="margin-right: 1em">
-                <b>Дед Мороз и Снегурочка на детский утренник:</b>
-                <br />
-                Программа с подарками от студии праздников ' . MSGapplicationTitleQuotes . '
-                <br />
-                1 час - 600.000 рублей + 1000.000
-                <br />
-                (подарки на 10 человек)
+        <div class="row">
+            <div class="small-12 medium-6 large-6 columns">
+                <div class="price-panel"  style="height: 11em">
+                    <b>Дед Мороз и Снегурочка на детский утренник:</b>
+                    <br />
+                    Программа с подарками от студии праздников ' . MSGapplicationTitleQuotes . '
+                    <br />
+                    1 час - 600.000 рублей + 1000.000
+                    <br />
+                    (подарки на 10 человек)
+                </div>
             </div>
-            <div class="small-12 medium-6 large-6 panel columns">
-                <b>Дед Мороз и Снегурочка на детский утренник:</b>
-                <br />
-                Программа без подарков от студии праздников ' . MSGapplicationTitleQuotes . '
-                <br />
-                1 час - 700.000 рублей
+            <div class="small-12 medium-6 large-6 columns" >
+                <div class="price-panel"  style="height: 11em">
+                    <b>Дед Мороз и Снегурочка на детский утренник:</b>
+                    <br />
+                    Программа без подарков от студии праздников ' . MSGapplicationTitleQuotes . '
+                    <br />
+                    1 час - 700.000 рублей
+                </div>
             </div>
         </div>
 
@@ -98,12 +102,12 @@ $content = '
             </p>
         </div>
         <div class="small-12 medium-12 large-12 columns">
-            Цены
+            <h5>' . MSGprice . '</h5>
         </div>
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
         </div>
-        <div class="small-12 medium-8 large-6 panel columns">
+        <div class="small-12 medium-8 large-6 price-panel columns">
             <b>Дед Мороз и Снегурочка в офис:</b>
             <br />
             300.000 рублей
@@ -124,24 +128,29 @@ $content = '
             </p>
         </div>
         <div class="small-12 medium-12 large-12 columns">
-            Цены
+            <h5>' . MSGprice . '</h5>
         </div>
         <div class="row">
-            <div class="small-12 medium-6 large-6 panel columns" style="height: 10em">
-                <b>Дед Мороз и Снегурочка на корпоратив:</b>
-                <br />
-                1 час - 400.000 рублей
+            <div class="small-12 medium-6 large-6 columns">
+                <div class="price-panel"  style="height: 10em">
+                    <b>Дед Мороз и Снегурочка на корпоратив:</b>
+                    <br />
+                    1 час - 400.000 рублей
+                </div>
             </div>
-            <div class="small-12 medium-6 large-6 panel columns" style="height: 10em">
-                <b>Дед Мороз и Снегурочка на корпоратив с Тамадой:</b>
-                <br />
-                2 часа - 700.000 рублей
-                <br />
-                4 часа - 900.000 рублей
-                <br />
-                8 часов - 1.100.000 рублей
+            <div class="small-12 medium-6 large-6 columns">
+                <div class="price-panel"  style="height: 10em">
+                    <b>Дед Мороз и Снегурочка на корпоратив с Тамадой:</b>
+                    <br />
+                    2 часа - 700.000 рублей
+                    <br />
+                    4 часа - 900.000 рублей
+                    <br />
+                    8 часов - 1.100.000 рублей
+                </div>
             </div>
         </div>
+        <br />
         <div class="row valign-middle">
             <div class="small-12 medium-4 large-4 columns">
                 <img class="home-image" src="/images/actions/santa_calling.png">

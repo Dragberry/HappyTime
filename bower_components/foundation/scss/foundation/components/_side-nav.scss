@@ -10,7 +10,8 @@
 
 $include-html-nav-classes: $include-html-classes !default;
 
-$side-nav-bg: #ACAAD3;
+$side-nav-bg: $custom-panel-bg;
+$side-nav-bg-opacity: $custom-panel-opacity;
 $side-nav-bg-active: #58557A;
 $side-nav-bg-hover: scale-color($side-nav-bg-active, $lightness: 40%);
 $side-nav-border-radius: 1em;
@@ -51,10 +52,11 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
 
 .left-side-bar {
   background-color: $side-nav-bg;
+  opacity: $side-nav-bg-opacity;
   border-radius: $side-nav-border-radius;
-  -webkit-box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    7px 7px 15px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         7px 7px 15px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(38, 38, 38, 0.85);
+  -moz-box-shadow:    5px 5px 5px 0px rgba(38, 38, 38, 0.85);
+  box-shadow:         5px 5px 5px 0px rgba(38, 38, 38, 0.85);
 }
 
 
@@ -123,7 +125,7 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
     }
 
     &.heading {
-      color: $side-nav-heading-color;
+      color: $custom-header-main-text-color;
       background-color: $side-nav-bg;
       font: {
         size: $side-nav-heading-font-size;
