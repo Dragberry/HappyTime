@@ -3,17 +3,26 @@
     <div class="header">
         <div>
             <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "\""); ?>>
-                <img class="home-image" src="/images/banners/santa_in_home.png">
+                <img class="home-image"
+                    alt="Дед Мороз на дом, Минск"
+                    title="Дед Мороз на дом, Минск"
+                    src="/images/banners/santa_in_home.png">
             </a>
         </div>
         <div>
             <a class="" href="/index.php">
-                <img class="home-image" src="/images/banners/info.png">
+                <img class="home-image"
+                     alt="Оригинальные поздравления, признания в любви, Минск"
+                     title="Оригинальные поздравления, признания в любви, Минск"
+                     src="/images/banners/info.png">
             </a>
         </div>
         <div>
             <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "#office\""); ?>>
-                <img class="home-image" src="/images/banners/santa_in_office.png">
+                <img class="home-image"
+                     alt="Дед Мороз в офис в Минске"
+                     title="Дед Мороз в офис в Минске"
+                     src="/images/banners/santa_in_office.png">
             </a>
         </div>
     </div>
@@ -41,7 +50,9 @@
                             </div>
                             <div class="large-2 small-3 columns">
                                 <a onclick="document.getElementById('search').submit();return false;">
-                                    <img src="/images/tools/search_icon.png" class="search-icon" style="">
+                                    <img src="/images/tools/search_icon.png"
+                                         alt="Найти оригинальный подарок"
+                                         class="search-icon" style="">
                                 </a>
                             </div>
                     </div>

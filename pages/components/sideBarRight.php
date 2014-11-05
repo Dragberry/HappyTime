@@ -12,7 +12,10 @@
                 При бронировании Деда Мороза до 15 ноября каждому ребенку подарок!
                 </span>
                 <a class="" href="' . $link . '">
-                    <img class="full-image" src="/images/promotions/gift.png">
+                    <img class="full-image"
+                        alt="Вызвать Деда Мороза и Снегурочку на дом в Минск"
+                        title="Вызвать Деда Мороза и Снегурочку на дом в Минск"
+                        src="/images/promotions/gift.png">
                 </a>
             </div>
         ';
