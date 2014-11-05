@@ -5,7 +5,7 @@ $activeLink = MSGaboutUs;
 $content = '
 <div class="row">
     <div class="small-12 columns text-center">
-        <h3>' . MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . '</h3>
+        <h1>' . MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . '</h1>
      </div>
 </div>
 <div class="row valign-middle">
@@ -16,18 +16,24 @@ $content = '
      <div class="small-12 medium-4 large-6 columns text-center">
         <p class="text-center" >
             <br />
-            <br />
+            <span class="block custom-minor-color">
             ' . MSGcontacts . '
-            <br />
+            </span>
+            <span class="block">
             ' . MSGvelcomPhone . '
-            <br />
+            </span>
+            <span class="block">
             ' . MSGmtsPhone . '
-            <br />
+            </span>
+            <span class="block">
             ' . MSGscheduleTitle . '
-            <br />
+            </span>
+            <span class="block">
             ' . MSGworkTime . '
-            <br />
-        ' . MSGwithoutWeekEnd . '
+            </span>
+            <span class="block">
+            ' . MSGwithoutWeekEnd . '
+            </span>
         </p>
         <p>
             Услуги тамады, аниматора

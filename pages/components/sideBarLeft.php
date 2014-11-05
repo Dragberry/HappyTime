@@ -17,13 +17,12 @@
             <?php echo(MSGfreeDelivery); ?>
         </a>
     </p>
-
+    <hr />
     <p class="text-center" style="font-size: small;">
-        <span class="custom-main-color">
+        <span class="custom-main-color block">
             НОВИНКА!
         </span>
-        <br />
-        <span class="custom-minor-color">
+        <span class="custom-minor-color block">
             ОРГАНИЗАЦИЯ
             КВЕСТ-ПОЗДРАВЛЕНИЙ,
             КВЕСТ-ПРИЗНАНИЙ В ЛЮБВИ
@@ -32,21 +31,29 @@
             <?php echo("Подробнее"); ?>
         </a>
     </p>
-
+    <hr />
     <p class="text-center" style="font-size: small;">
+        <span class="custom-main-color block">
         <?php echo(MSGalterApplicationTitle." ".MSGapplicationTitleQuotes); ?>
-        <br />
+        </span>
+        <span class="custom-minor-color block">
         <?php echo(MSGcontacts); ?>
-        <br />
+        </span>
+        <span class="block">
         <?php echo(MSGvelcomPhone); ?>
-        <br />
+        </span>
+        <span class="block">
         <?php echo(MSGmtsPhone); ?>
-        <br />
+        </span>
+        <span class="block">
         <?php echo(MSGscheduleTitle); ?>
-        <br />
+        </span>
+        <span class="block">
         <?php echo(MSGworkTime); ?>
-        <br />
+        </span>
+        <span class="block">
         <?php echo(MSGwithoutWeekEnd); ?>
+        </span>
     </p>
 
     <p class="text-center" style="font-size: small;">

@@ -14,7 +14,7 @@ $include-html-top-bar-classes: $include-html-classes !default;
 
 // Background color for the top bar
 $topbar-bg-color: $oil !default;
-$topbar-color-active: #330033 !default;
+$topbar-color-active: $black !default;
 $topbar-bg-image: url('/images/tools/background_top_bar.png') repeat-x;
 $topbar-bg-image-active: url('/images/tools/background_top_bar_active.png') repeat-x;
 $topbar-bg-image-hover: url('/images/tools/background_top_bar_hover.png') repeat-x;
@@ -58,7 +58,7 @@ $topbar-button-top: 7px !default;
 $topbar-dropdown-bg: $topbar-bg-image !default;
 $topbar-dropdown-link-color: $white !default;
 $topbar-dropdown-link-color-hover: $topbar-link-color-hover !default;
-$topbar-dropdown-link-bg: #ff7cd8 !default;
+$topbar-dropdown-link-bg: #E25EB6 !default;
 $topbar-dropdown-link-weight: $font-weight-bold !default;
 $topbar-dropdown-toggle-size: 5px !default;
 $topbar-dropdown-toggle-color: $white !default;

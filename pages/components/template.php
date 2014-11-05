@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><?php echo MSGapplicationTitle." - ".$title; ?></title>
+    <title><?php echo $title . " - " . MSGurl; ?></title>
     <link rel="stylesheet" type="text/css" href="/bower_components/jquery-ui/jquery-ui.min.css"/>
     <link rel="stylesheet" href="/stylesheets/app.css" />
     <link rel="stylesheet" type="text/css" href="/bower_components/slick/slick.css"/>

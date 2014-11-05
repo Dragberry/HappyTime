@@ -31,32 +31,32 @@ $content = '
         </div>
         <div class="small-12 medium-8 large-6 price-panel columns">
             <h2>Дед Мороз и Снегурочка на дом:</h2>
-                <span style="display: block">
+                <span class="block">
                 до 25 декабря - 250.000 рублей
                 </span>
-                <span style="display: block">
+                <span class="block">
                 25 - 29 декабря - 300.000 рублей
                 </span>
-                <span style="display: block">
+                <span class="block">
                 30 декабря - 350.000 рублей
                 </span>
-                <span style="display: block">
+                <span class="block">
                 31 декабря до 18.00 - 400.000 рублей
                 </span>
-                <span style="display: block">
+                <span class="block">
                 31 декабря с 18.00 - 500.000 рублей
                 </span>
-                <span style="display: block">
+                <span class="block">
                 1 января - 500.000 рублей
                 </span>
-                <span style="display: block">
+                <span class="block">
                 со 2 января - 300.000 рублей
                 </span>
         </div>
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
         </div>
-
+        <hr />
         <div class="small-12 medium-12 large-12 columns">
             <h2 class="custom-main-color">
                 Дед Мороз и Снегурочка на детский утренник
@@ -76,13 +76,13 @@ $content = '
             <div class="small-12 medium-6 large-6 columns">
                 <div class="price-panel"  style="height: 12em">
                     <h2>Дед Мороз и Снегурочка на детский утренник:</h2>
-                    <span style="display: block">
+                    <span class="block">
                     Программа с подарками от студии праздников ' . MSGapplicationTitleQuotes . '
                     </span>
-                    <span style="display: block">
+                    <span class="block">
                     1 час - 600.000 рублей + 1000.000
                     </span>
-                    <span style="display: block">
+                    <span class="block">
                     (подарки на 10 человек)
                     </span>
                 </div>
@@ -90,16 +90,16 @@ $content = '
             <div class="small-12 medium-6 large-6 columns" >
                 <div class="price-panel"  style="height: 12em">
                     <h2>Дед Мороз и Снегурочка на детский утренник:</h2>
-                    <span style="display: block">
+                    <span class="block">
                     Программа без подарков от студии праздников ' . MSGapplicationTitleQuotes . '
                     </span>
-                    <span style="display: block">
+                    <span class="block">
                     1 час - 700.000 рублей
                     </span>
                 </div>
             </div>
         </div>
-
+        <hr />
         <div class="small-12 medium-12 large-12 columns">
             <a name="office"></a>
             <h2 class="custom-main-color">
@@ -120,14 +120,14 @@ $content = '
         </div>
         <div class="small-12 medium-8 large-6 price-panel columns">
             <h2>Дед Мороз и Снегурочка в офис:</h2>
-            <span style="display: block">
+            <span class="block">
             300.000 рублей
             </span>
         </div>
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
         </div>
-
+        <hr />
         <div class="small-12 medium-12 large-12 columns">
             <h2 class="custom-main-color">
                 Дед Мороз и Снегурочка на корпоратив!
@@ -145,7 +145,7 @@ $content = '
             <div class="small-12 medium-6 large-6 columns">
                 <div class="price-panel"  style="height: 10em">
                     <h2>Дед Мороз и Снегурочка на корпоратив:</h2>
-                    <span style="display: block">
+                    <span class="block">
                     1 час - 400.000 рублей
                     </span>
                 </div>
@@ -153,13 +153,13 @@ $content = '
             <div class="small-12 medium-6 large-6 columns">
                 <div class="price-panel"  style="height: 10em">
                     <h2>Дед Мороз и Снегурочка на корпоратив с Тамадой:</h2>
-                    <span style="display: block">
+                    <span class="block">
                     2 часа - 700.000 рублей
                     </span>
-                    <span style="display: block">
+                    <span class="block">
                     4 часа - 900.000 рублей
                     </span>
-                    <span style="display: block">
+                    <span class="block">
                     8 часов - 1.100.000 рублей
                     </span>
                 </div>
@@ -168,7 +168,10 @@ $content = '
 
         <div class="row valign-middle">
             <div class="small-12 medium-4 large-4 columns">
-                <img class="home-image" src="/images/actions/santa_calling.png">
+                <img class="home-image"
+                    alt="Дед мороз на дом, в офис, на корпоратив"
+                    title="Дед мороз на дом, в офис, на корпоратив"
+                    src="/images/actions/santa_calling.png">
             </div>
             <div class="small-12 medium-4 large-4 columns">
                 <h4>
@@ -176,7 +179,10 @@ $content = '
                 </h4>
             </div>
             <div class="small-12 medium-4 large-4 columns">
-                <img class="home-image" src="/images/actions/christmas_tree.png">
+                <img class="home-image"
+                    alt="Дед мороз на дом, в офис, на корпоратив"
+                    title="Дед мороз на дом, в офис, на корпоратив"
+                    src="/images/actions/christmas_tree.png">
             </div>
         </div>
     </div>

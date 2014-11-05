@@ -1,5 +1,6 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
+$title = 'Купить воздушные шары в Минске';
 $activeLink=MSGballoons;
 $activeSubLink="";
 $content = '

@@ -1,6 +1,6 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
-$title='Оригинальные признания в любви и поздравления в Минске';
+$title='Оригинальные признания в любви и поздравления в виде приключения по Минску';
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGoriginalCongratulation;
 $content = '
@@ -33,6 +33,10 @@ $content = '
             </h2>
         </div>
         <div class="small-12 medium-12 large-12 columns">
+            <img class="home-image"
+                alt="Оригинальное поздравление в виде квеста"
+                title="Оригинальное поздравление в виде приключения"
+                src="/images/actions/gift_map.png">
             <p>
                 Наверное, каждый человек хотел бы получить поздравление в форме квеста или приключения. Суть данного поздравления заключается в следующем:
                 человек, которого мы поздравляем (или которого ждет романтическое и необычное признание в любви) попадает в увлекательную поэтапную игру с заданиями, пикетами и тайными загадками.
@@ -40,7 +44,24 @@ $content = '
                 Данная игра может проходить под различными тематиками.
                 ' .MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . ' поможет Вам полностью в выборе тематики игры, разработке карт, испытаний, пикетов, составит маршрут и маршрутные листы и организует все задуманное Вами.
             </p>
-            <img class="home-image" src="/images/actions/gift_map.png">
+        </div>
+        <div class="small-12 medium-12 large-12 center columns">
+            <h5>' . MSGprice . '</h5>
+        </div>
+        <div class="show-for-medium-up medium-1 large-2 columns">
+            <br />
+        </div>
+        <div class="small-12 medium-10 large-8 price-panel columns">
+            <h2>Поздравление в виде приключения по городу Минску</h2>
+            <span style="display: block">
+            40 минут - 5-6 тайных мест - 300.000 рублей
+            </span>
+            <span style="display: block">
+            1,5 часа - 10 тайных мест - 500.000 рублей
+            </span>
+        </div>
+        <div class="show-for-medium-up medium-1 large-2 columns">
+            <br />
         </div>
     </div>
 ';
