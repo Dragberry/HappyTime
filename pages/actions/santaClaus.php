@@ -1,5 +1,6 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
+$title = "Дед Мороз и Снегурочка на дом в Минске";
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGsantaClaus;
 $content = '
@@ -7,7 +8,7 @@ $content = '
         <div class="small-12 medium-12 large-12 columns">
             <h4>
                 СКАЗОЧНЫЕ ДЕД МОРОЗ И СНЕГУРОЧКА
-                ДОСТАВЯТ РАДОСТЬ ВАМ И ВАШИМ ДЕТЯМ!!!
+                ДОСТАВЯТ РАДОСТЬ ВАМ И ВАШИМ ДЕТЯМ В МИНСКЕ!!!
             </h4>
         </div>
         <div class="small-12 medium-12 large-12 columns">

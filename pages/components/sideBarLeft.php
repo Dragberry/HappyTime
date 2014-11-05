@@ -1,5 +1,5 @@
 <div class="small-12">
-    <p class="text-center">
+    <p class="text-center custom-main-color">
         <?php echo(MSGalterApplicationTitle." ".MSGapplicationTitleQuotes); ?>
     </p>
 
@@ -19,11 +19,15 @@
     </p>
 
     <p class="text-center" style="font-size: small;">
-        НОВИНКА!
+        <span class="custom-main-color">
+            НОВИНКА!
+        </span>
         <br />
-        ОРГАНИЗАЦИЯ
-        КВЕСТ-ПОЗДРАВЛЕНИЙ,
-        КВЕСТ-ПРИЗНАНИЙ В ЛЮБВИ
+        <span class="custom-minor-color">
+            ОРГАНИЗАЦИЯ
+            КВЕСТ-ПОЗДРАВЛЕНИЙ,
+            КВЕСТ-ПРИЗНАНИЙ В ЛЮБВИ
+        </span>
         <a href=<?php echo($menuActions[MSGoriginalCongratulation]["link"]); ?> class="button small">
             <?php echo("Подробнее"); ?>
         </a>

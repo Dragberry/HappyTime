@@ -58,6 +58,7 @@ html, body {
   }
 }
 
+// Price panel
 .price-panel {
   background-color: $custom-panel-light-bg;
   color: $black;
@@ -66,4 +67,25 @@ html, body {
   -webkit-box-shadow: 5px 5px 5px 0px rgba(38, 38, 38, 0.85);
   -moz-box-shadow:    5px 5px 5px 0px rgba(38, 38, 38, 0.85);
   box-shadow:         5px 5px 5px 0px rgba(38, 38, 38, 0.85);
+}
+
+// Types and fonts
+.custom-main-color {
+  color: $custom-header-main-text-color
+}
+
+.custom-minor-color {
+  color: $custom-header-minor-text-color
+}
+
+.custom-alter-main-color {
+  color: $custom-alter-main-text-color
+}
+
+.custom-alter-minor-color {
+  color: $custom-alter-minor-text-color
+}
+
+.custom-text-color {
+  color: $custom-text-color
 }
