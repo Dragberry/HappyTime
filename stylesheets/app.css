@@ -64,6 +64,9 @@ html, body {
   color: black;
   border-radius: 1em;
   padding: 1em 0.5em;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(38, 38, 38, 0.85);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(38, 38, 38, 0.85);
+  box-shadow: 5px 5px 5px 0px rgba(38, 38, 38, 0.85);
 }
 
 /* line 4, ../scss/_images.scss */

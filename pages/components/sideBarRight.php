@@ -9,7 +9,7 @@
                 При бронировании Деда Мороза до 15 ноября каждому ребенку подарок!
                 <a class="" href="' . $link . '">
                     <img class="full-image" src="/images/promotions/gift.png">
-                </div>
+                </a>
             </div>
         ';
         return $content;

@@ -17,12 +17,17 @@
         </div>
     </div>
     <div class="show-for-medium-up medium-4 large-4 columns ">
-        <div class="right text-center">
+        <div class="text-center large-12 right">
             <p>
+                <img class="full-image" src="/images/tools/velcom.png">
                 <?php echo MSGvelcomPhone; ?>
                 <br />
+                <img class="full-image" src="/images/tools/mts.png">
                 <?php echo MSGmtsPhone; ?>
-                <br />
+            </p>
+        </div>
+        <div class="large-12 text-center right">
+            <p>
                 <?php echo MSGscheduleTitle; ?>
                 <br />
                 <?php echo MSGschedule; ?>
