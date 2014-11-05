@@ -7,12 +7,12 @@
             </a>
         </div>
         <div>
-            <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "\""); ?>>
+            <a class="" href="/index.php">
                 <img class="home-image" src="/images/banners/info.png">
             </a>
         </div>
         <div>
-            <a class="" href="/index.php">
+            <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "#office\""); ?>>
                 <img class="home-image" src="/images/banners/santa_in_office.png">
             </a>
         </div>

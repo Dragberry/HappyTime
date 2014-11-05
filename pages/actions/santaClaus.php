@@ -101,6 +101,7 @@ $content = '
         </div>
 
         <div class="small-12 medium-12 large-12 columns">
+            <a name="office"></a>
             <h2 class="custom-main-color">
                 Дед Мороз и Снегурочка в офис!
                 Подарите счастье своим сотрудникам и коллегам!
