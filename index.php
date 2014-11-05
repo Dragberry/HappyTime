@@ -1,6 +1,6 @@
 <?php
 include('pages/components/messages.php');
-$title = MSGalterApplicationTitle;
+$title =  'Организация праздников, оригинальных поздравлений в Миснке. Магазин сувениров ручной работы';
 $content = '
 <div class="row">
     <div class="small-12 medium-12 large-12 columns">

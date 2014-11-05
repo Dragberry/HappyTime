@@ -14,6 +14,7 @@ $include-html-top-bar-classes: $include-html-classes !default;
 
 // Background color for the top bar
 $topbar-bg-color: $oil !default;
+$topbar-color-active: #330033 !default;
 $topbar-bg-image: url('/images/tools/background_top_bar.png') repeat-x;
 $topbar-bg-image-active: url('/images/tools/background_top_bar_active.png') repeat-x;
 $topbar-bg-image-hover: url('/images/tools/background_top_bar_hover.png') repeat-x;
@@ -31,11 +32,11 @@ $topbar-title-font-size: rem-calc(17) !default;
 // Set the link colors and styles for top-level nav
 $topbar-link-color: $white !default;
 $topbar-link-color-hover: $white !default;
-$topbar-link-color-active: #330033 !default;
-$topbar-link-font-weight-active: bold !default;
+$topbar-link-color-active: $topbar-color-active !default;
+$topbar-link-font-weight-active: $font-weight-bold !default;
 $topbar-link-font-style-active: italic !default;
-$topbar-link-color-active-hover: #330033 !default;
-$topbar-link-font-weight-active-hover: bold !default;
+$topbar-link-color-active-hover: $topbar-color-active !default;
+$topbar-link-font-weight-active-hover: $font-weight-bold !default;
 $topbar-link-font-style-active-hover: italic !default;
 $topbar-link-weight: $font-weight-bold !default;
 $topbar-link-font-size: rem-calc(13) !default;
