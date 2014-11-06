@@ -14,3 +14,30 @@ $(function(){
     );
     $("#mainCalendar").datepicker();
 });
+
+$(function() {
+    var addUser;
+    var dialog = $("#orderSantаClaus").dialog({
+        autoOpen: false,
+        height: 300,
+        width: 350,
+        modal: true,
+        buttons: {
+            "Create an account": addUser,
+            Cancel: function() {
+                dialog.dialog( "close" );
+            }
+        },
+        close: function() {
+            ;
+        }
+    });
+
+    form = dialog.find( "form" ).on( "submit", function( event ) {
+        event.preventDefault();
+    });
+
+    $( "#create-user" ).button().on( "click", function() {
+        dialog.dialog( "open" );
+    });
+});

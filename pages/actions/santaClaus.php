@@ -24,7 +24,7 @@ $content = '
             </p>
         </div>
         <div class="small-12 medium-12 large-12 columns">
-           <h5>' . MSGprice . '</h5>
+           <button id="create-user">Create new user</button>
         </div>
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
@@ -186,6 +186,9 @@ $content = '
             </div>
         </div>
     </div>
+        <div id="orderSantaClaus">
+            Что бы позвать Деда Мороза и Снегурочку к себе на дом, позвоните нам!
+        </div>
 ';
 include($_SERVER['DOCUMENT_ROOT'].'/pages/actions/components/actionsTemplate.php');
 ?>
