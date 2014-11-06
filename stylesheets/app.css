@@ -110,6 +110,14 @@ html, body {
   display: block;
 }
 
+/* line 107, ../scss/_general.scss */
+.ui-state-default {
+  border: none;
+  background: #dd48e7;
+  font-weight: bold;
+  color: white;
+}
+
 /* line 4, ../scss/_images.scss */
 .search-image {
   max-width: 200px;

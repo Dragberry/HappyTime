@@ -23,9 +23,6 @@ $content = '
                 веселые песни, поздравления и вручение подарка.
             </p>
         </div>
-        <div class="small-12 medium-12 large-12 columns">
-           <button id="create-user">Create new user</button>
-        </div>
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
         </div>
@@ -56,6 +53,9 @@ $content = '
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
         </div>
+        <div class="small-12 medium-12 large-12 columns">
+           <button class="callToSanta">Заказать</button>
+        </div>
         <hr />
         <div class="small-12 medium-12 large-12 columns">
             <h2 class="custom-main-color">
@@ -68,9 +68,6 @@ $content = '
                 Программа включает в себя игры с призами, шутки, загадки, хороводы,
                 веселые песни, сказочные поздравления, вручение подарков и многое другое
             </p>
-        </div>
-        <div class="small-12 medium-12 large-12 columns">
-            <h5>' . MSGprice . '</h5>
         </div>
         <div class="row">
             <div class="small-12 medium-6 large-6 columns">
@@ -99,6 +96,9 @@ $content = '
                 </div>
             </div>
         </div>
+        <div class="small-12 medium-12 large-12 columns">
+           <button class="callToSanta">Заказать</button>
+        </div>
         <hr />
         <div class="small-12 medium-12 large-12 columns">
             <a name="office"></a>
@@ -112,9 +112,6 @@ $content = '
                 Шуточная программа включает в себя поздравления и веселые конкурсы.
             </p>
         </div>
-        <div class="small-12 medium-12 large-12 columns">
-            <h5>' . MSGprice . '</h5>
-        </div>
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
         </div>
@@ -127,6 +124,9 @@ $content = '
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
         </div>
+        <div class="small-12 medium-12 large-12 columns">
+           <button class="callToSanta">Заказать</button>
+        </div>
         <hr />
         <div class="small-12 medium-12 large-12 columns">
             <h2 class="custom-main-color">
@@ -137,9 +137,6 @@ $content = '
             <p>
                 Программа включает: шутки, поздравления, конкурсы и игры с призами, песни (живое исполнение) и танцы.
             </p>
-        </div>
-        <div class="small-12 medium-12 large-12 columns">
-            <h5>' . MSGprice . '</h5>
         </div>
         <div class="row">
             <div class="small-12 medium-6 large-6 columns">
@@ -165,6 +162,9 @@ $content = '
                 </div>
             </div>
         </div>
+        <div class="small-12 medium-12 large-12 columns">
+           <button class="callToSanta">Заказать</button>
+        </div>
 
         <div class="row valign-middle">
             <div class="small-12 medium-4 large-4 columns">
@@ -185,10 +185,35 @@ $content = '
                     src="/images/actions/christmas_tree.png">
             </div>
         </div>
-    </div>
         <div id="orderSantaClaus">
-            Что бы позвать Деда Мороза и Снегурочку к себе на дом, позвоните нам!
+            <div class="row text-center">
+                <span>Чтобы заказать Деда Мороза и Снегурочку на дом,
+                позвоните нам по телефонам:</span>
+                <span class="block">
+                <img style="width: 16px; height: 16px" src="/images/tools/velcom.png">
+                ' . MSGvelcomPhone . '
+                </span>
+                <span class="block">
+                <img style="width: 16px; height: 16px" class="full-image" src="/images/tools/mts.png">
+                ' . MSGmtsPhone . '
+                </span>
+                <span class="block">
+                Или пришлите письмо на нашу электронную почту
+                </span>
+                <span class="block"><b>
+                ' . MSGemail . '
+                </b></span>
+                <span class="block">
+                с указанием имени и номера вашего контактного телефона.
+                </span>
+            </div>
+
+
         </div>
+    </div>
+    <div class="row-center">
+
+    </div>
 ';
 include($_SERVER['DOCUMENT_ROOT'].'/pages/actions/components/actionsTemplate.php');
 ?>

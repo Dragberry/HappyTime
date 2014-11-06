@@ -17,19 +17,19 @@ $(function(){
 
 $(function() {
     var addUser;
-    var dialog = $("#orderSantаClaus").dialog({
+    var dialog = $("#orderSantaClaus").dialog({
         autoOpen: false,
-        height: 300,
-        width: 350,
+        width: 480,
         modal: true,
-        buttons: {
-            "Create an account": addUser,
-            Cancel: function() {
-                dialog.dialog( "close" );
+        buttons: [{
+            text: "Хорошо!",
+            click: function() {
+                $( this ).dialog( "close" );
             }
-        },
+        }],
+
         close: function() {
-            ;
+            $( ".callToSanta").blur() ;
         }
     });
 
@@ -37,7 +37,7 @@ $(function() {
         event.preventDefault();
     });
 
-    $( "#create-user" ).button().on( "click", function() {
+    $( ".callToSanta" ).button().on( "click", function() {
         dialog.dialog( "open" );
     });
 });

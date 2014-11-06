@@ -102,3 +102,11 @@ html, body {
 .block {
   display: block;
 }
+
+// Dialogs
+.ui-state-default,  {
+  border: none;
+  background: $custom-alter-main-text-color;
+  font-weight: $font-weight-bold;
+  color: $custom-text-color;
+}
