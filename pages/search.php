@@ -3,6 +3,7 @@ include('components/messages.php');
 $title=$_GET['searchRequest'];
 $activeLink="";
 $activeSubLink="";
+/*
 class SearchResult
 {
     public $imgLink = "/images/no_image.png";
@@ -75,5 +76,13 @@ $content .= '
       <li class="arrow"><a href="">&raquo;</a></li>
     </ul>
 ';
+*/
+$content='
+    <div class="small-12 text-center">
+        <h2 class="custom-main-color">
+            Извините, поиск начнет функциониовать с открытием интернет-магазина.
+        </h2>
+    </div>
+    ';
 include('components/template.php');
 ?>

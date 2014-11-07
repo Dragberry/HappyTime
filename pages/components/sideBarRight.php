@@ -28,11 +28,15 @@
     }
 ?>
 
-
+<!--
 <div>
     <div id="mainCalendar"></div>
 </div>
 <br />
+-->
+<div>
+    <?php echo(getRandomAction($menuActions[MSGsantaClaus]["link"])); ?>
+</div>
 <div>
     <p class="text-center" style="font-size: small">
         <span class="custom-main-color text-center block">
@@ -47,7 +51,4 @@
         <?php echo MSGmtsPhone; ?>
         </span>
     </p>
-</div>
-<div>
-    <?php echo(getRandomAction($menuActions[MSGsantaClaus]["link"])); ?>
 </div>

@@ -55,7 +55,7 @@ $content = '
         </div>
         <div class="small-12 medium-12 large-12 price-panel columns">
             <span class="block">
-                При бронировании Деда Мороза <b>до 15 декабря</b> каждому ребенку подарок!
+                Если позвонить Деду Морозу <b>до 15 декабря</b>, то сказочные эльфы успеют изготовить всем детям по подарку!
             </span>
         </div>
         <div class="small-12 medium-12 large-12 columns">
@@ -229,12 +229,12 @@ $content = '
                 <hr />
                 </span>
                 <span class="block">
-                При бронировании Деда Мороза
+                Если забронировать Деда Мороза
                 </span>
                 <span class="block custom-main-color">
-                до 15 декабря
+                до 15 декабря,
                 </span>
-                <span class="block">каждому ребенку подарок!
+                <span class="block">то все дети получат по подарку!
                 </span>
             </div>
 
