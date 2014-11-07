@@ -113,9 +113,33 @@ html, body {
 /* line 107, ../scss/_general.scss */
 .ui-state-default {
   border: none;
-  background: #dd48e7;
+  background: #ffcc00;
   font-weight: bold;
+  color: black;
+}
+
+/* line 113, ../scss/_general.scss */
+.ui-state-hover {
+  background: #f7dd74;
+}
+
+/* line 117, ../scss/_general.scss */
+.ui-dialog {
+  border-radius: 1em;
+  padding: 0;
+}
+
+/* line 122, ../scss/_general.scss */
+.ui-widget-content {
+  background: #003366;
   color: white;
+  border: 1px #74bfdd solid;
+}
+
+/* line 128, ../scss/_general.scss */
+.ui-widget-header {
+  color: white;
+  background: url("/images/tools/background_top_bar.png") repeat-x;
 }
 
 /* line 4, ../scss/_images.scss */
@@ -6018,7 +6042,7 @@ dialog[open] {
 .side-nav li a:not(.button) {
   display: block;
   color: white;
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
   margin: 0;
   padding: 0.4375rem 0.875rem;
@@ -6033,7 +6057,7 @@ dialog[open] {
 /* line 107, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
   color: black;
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
   background-color: #ffcc00;
   border-radius: 1em;
@@ -6929,7 +6953,7 @@ meta.foundation-mq-topbar {
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 0.8125rem;
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
   text-transform: none;
 }
 /* line 329, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7089,14 +7113,14 @@ meta.foundation-mq-topbar {
   background: url("/images/tools/background_top_bar_active.png") repeat-x;
   color: black;
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
 }
 /* line 369, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
   background: url("/images/tools/background_top_bar_hover.png") repeat-x;
   color: black;
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
 }
 /* line 379, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
@@ -7290,14 +7314,14 @@ meta.foundation-mq-topbar {
     color: black;
     background: url("/images/tools/background_top_bar_active.png") repeat-x;
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
   }
   /* line 538, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
     background: url("/images/tools/background_top_bar_hover.png") repeat-x;
     color: black;
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
   }
   /* line 563, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.moved {
@@ -7422,7 +7446,7 @@ meta.foundation-mq-topbar {
     background: url("/images/tools/background_top_bar_active.png") repeat-x;
     color: black;
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
   }
   /* line 697, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {

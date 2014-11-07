@@ -106,7 +106,26 @@ html, body {
 // Dialogs
 .ui-state-default,  {
   border: none;
-  background: $custom-alter-main-text-color;
+  background: $custom-header-main-text-color;
   font-weight: $font-weight-bold;
+  color: $black;
+}
+.ui-state-hover,  {
+  background: $custom-header-minor-text-color;
+}
+
+.ui-dialog {
+  border-radius: 1em;
+  padding: 0;
+}
+
+.ui-widget-content {
+  background: $custom-body-bg;
   color: $custom-text-color;
+  border: 1px $custom-panel-light-bg solid;
+}
+
+.ui-widget-header {
+  color: $custom-text-color;
+  background: url('/images/tools/background_top_bar.png') repeat-x;
 }

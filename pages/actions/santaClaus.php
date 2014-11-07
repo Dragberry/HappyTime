@@ -200,7 +200,7 @@ $content = '
                 <span class="block">
                 Или пришлите письмо на нашу электронную почту
                 </span>
-                <span class="block"><b>
+                <span class="block custom-main-color"><b>
                 ' . MSGemail . '
                 </b></span>
                 <span class="block">

@@ -18,6 +18,7 @@ $(function(){
 $(function() {
     var addUser;
     var dialog = $("#orderSantaClaus").dialog({
+        title: "Дед Мороз и Снегурочка в Минске",
         autoOpen: false,
         width: 480,
         modal: true,

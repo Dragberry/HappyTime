@@ -91,7 +91,7 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
     a:not(.button) {
       display: block;
       color: $link-color;
-      font-style: italic;
+      font-style: normal;
       font-weight: $side-nav-font-weight;
       margin: $side-nav-link-margin;
       padding: $side-nav-link-padding;
@@ -106,7 +106,7 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
 
     &.active > a:first-child:not(.button) {
       color: $black;
-      font-style: italic;
+      font-style: normal;
       font-weight: $side-nav-font-weight;
       background-color: $side-nav-bg-active;
       border-radius: $side-nav-border-radius;
