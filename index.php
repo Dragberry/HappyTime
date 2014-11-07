@@ -1,6 +1,6 @@
 <?php
 include('pages/components/messages.php');
-$title =  'Организация праздников, оригинальных поздравлений в Миснке. Магазин сувениров ручной работы';
+$title =  'Организация праздников, оригинальных поздравлений в Минске. Дед Мороз и Снегурочка на дом.';
 $content = '
 <div class="row">
     <div class="small-12 medium-12 large-12 columns">

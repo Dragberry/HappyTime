@@ -34,30 +34,32 @@
         </li>
     </ul>
     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar"><a href="#"><span></span></a></li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span><?php echo MSGmenu ?></span></a></li>
     <section class="top-bar-section">
         <!-- Right Nav Section -->
         <ul class="right">
             <?php printHeaderMenu($menuAdditional, $activeLink, $activeSubLink); ?>
+            <!--
             <li class="has-form search-bar">
                 <form id="search" method="get"  action="/pages/search.php">
                     <div class="row collapse">
-                            <div class="large-10 small-9 columns">
-                                <input name="searchRequest"
-                                       class="search-input"
-                                       type="text"
-                                       placeholder=<?php echo "\"".MSGsiteSearch."\"" ?>>
-                            </div>
-                            <div class="large-2 small-3 columns">
-                                <a onclick="document.getElementById('search').submit();return false;">
-                                    <img src="/images/tools/search_icon.png"
-                                         alt="Найти оригинальный подарок"
-                                         class="search-icon" style="">
-                                </a>
-                            </div>
+                        <div class="large-10 small-9 columns">
+                            <input name="searchRequest"
+                                   class="search-input"
+                                   type="text"
+                                   placeholder=<?php echo "\"".MSGsiteSearch."\"" ?>>
+                        </div>
+                        <div class="large-2 small-3 columns">
+                            <a onclick="document.getElementById('search').submit();return false;">
+                                <img src="/images/tools/search_icon.png"
+                                     alt="Найти оригинальный подарок"
+                                     class="search-icon" style="">
+                            </a>
+                        </div>
                     </div>
                 </form>
             </li>
+            -->
         </ul>
         <!-- Left Nav Section -->
         <ul class="left">

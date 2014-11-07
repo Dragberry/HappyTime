@@ -35,17 +35,9 @@
                 ?>
             </div>
             <div class="small-12 medium-6 large-7 columns">
-                <br />
-                <div class="small-12 show-for-small-only columns">
-                    <?php
-                        if ($activeSubLink && $activeLink)
-                        {
-                            echo($activeLink.": ".$activeSubLink);
-                        } else if ($activeLink)
-                        {
-                            echo($activeLink);
-                        }
-                    ?>
+
+                <div class="show-for-medium-up columns">
+                    <br />
                 </div>
                 <?php
                     echo($content);
