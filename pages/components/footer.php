@@ -1,5 +1,5 @@
 <hr/>
-<div class="row">
+<div class="row" onclick="location.href='/index.php';" title="Кликни, чтобы вернуться на главную">
     <div class="show-for-medium-up medium-4  large-4 columns">
         <div class="text-center large-12">
             <p>

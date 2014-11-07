@@ -96,8 +96,16 @@ html, body {
 }
 
 .custom-alter-text-color {
-  color: $custom-alter-text-color
+  color: $custom-alter-text-color;
 }
+
+  a.custom-link {
+    text-decoration: underline;
+    color: $custom-header-minor-text-color;
+    &:hover {
+      color: $custom-header-main-text-color;
+    }
+  }
 
 .block {
   display: block;

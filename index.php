@@ -18,7 +18,7 @@ $content = '
 <div class="row valign-middle">
     <div class="small-12 medium-5 large-3 columns text-center">
         <a class="" href="/pages/actions/santaClaus.php">
-            <img class="full-image"
+            <img class="common-image"
                 alt="Дед Мороз и Снегурочка на дом в Минске"
                 title="Дед Мороз и Снегурочка на дом"
                 src="/images/santa_claus_and_snowgirl.png">
@@ -28,7 +28,13 @@ $content = '
         <h2 class="custom-main-color">
             Не знаете как встретить грядущий Новый Год?
         </h2>
-        Дед Мороз и Снегурочка из студии ' . MSGapplicationTitleQuotes . ' придут к Вам в гости !
+        <span class="block">
+            Дед Мороз и Снегурочка из студии ' . MSGapplicationTitleQuotes . ' придут к Вам в гости!
+        </span>
+        <span class="block">
+            <a class="custom-link" href="/pages/actions/santaClaus.php"
+                title="Позвать Деда Мороза и Снегурочку домой в Миснк">' . MSGdetails . '</a>
+        </span>
     </div>
 </div>
 <div class="row valign-middle">
@@ -36,13 +42,19 @@ $content = '
         <h2 class="custom-main-color">
             Ищите оригинальное признание в любви?
         </h2>
-        ' .MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . ' поможет Вам сделать удивительное признание для своей второй половинки!
+        <span class="block">
+            ' .MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . ' поможет Вам сделать удивительное признание для своей второй половинки!
+        </span>
+        <span class="block">
+            <a class="custom-link" href="/pages/actions/originalCongratulation.php"
+                title="Необычное поздравление или признание в любви">' . MSGdetails . '</a>
+        </span>
     </div>
     <div class="small-12 medium-5 large-3 columns text-center">
         <a class="" href="/pages/actions/originalCongratulation.php">
-            <img class="full-image"
-                alt="Оригинальное признание в любви"
-                title="Оригинальное признание в любви"
+            <img class="common-image"
+                alt="Оригинальное признание в любви в городе Минске"
+                title="Оригинальное признание в любви в городе Минске"
                 src="/images/balloons/balloon_bouquet.png">
         </a>
     </div>
@@ -50,7 +62,7 @@ $content = '
 <div class="row valign-middle">
     <div class="small-12 medium-5 large-3 columns text-center">
         <a class="" href="/pages/actions/santaClaus.php">
-            <img class="full-image"
+            <img class="common-image"
                 alt="Детский аниматор"
                 title="Детский аниматор"
                 src="/images/clown.png">
@@ -60,7 +72,13 @@ $content = '
         <h2 class="custom-main-color">
             Желаете порадовать своего ребенка?
         </h2>
-        ' .MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . ' поможет Вам в этом!
+        <span class="block">
+            ' .MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . ' поможет Вам в этом!
+        </span>
+        <span class="block">
+            <a class="custom-link" href="/pages/actions/santaClaus.php"
+                title="Порадуйте своих детей и пригласите на Новый Год Деда Мороза от студии ' . MSGapplicationTitle . ' ">' . MSGdetails . '</a>
+        </span>
     </div>
 </div>
 <div class="row valign-middle">
@@ -68,11 +86,17 @@ $content = '
         <h2 class="custom-main-color">
             Хотите весело и необычно отпраздновать важное событие в вашей жизни?
         </h2>
-        Студия ' . MSGapplicationTitleQuotes . ' наполнит Ваш праздник незабываемыми моментами и неповторимыми эмоциями!
+        <span class="block">
+            Студия ' . MSGapplicationTitleQuotes . ' наполнит Ваш праздник незабываемыми моментами и неповторимыми эмоциями!
+        </span>
+        <span class="block">
+            <a class="custom-link" href="/pages/actions/party.php"
+                title="Организация забавных и неординарных праздников">' . MSGdetails . '</a>
+        </span>
     </div>
     <div class="small-12 medium-5 large-3 columns text-center">
         <a class="" href="/pages/actions/party.php">
-            <img class="full-image"
+            <img class="common-image"
                 alt="Веселый и необычный праздник"
                 title="Веселый и необычный  праздник"
                 src="/images/party.png">
@@ -82,7 +106,7 @@ $content = '
 <div class="row valign-middle">
     <div class="small-12 medium-5 large-3 columns text-center">
         <a class="" href="/pages/originalGifts/general.php">
-            <img class="full-image"
+            <img class="common-image"
                 alt="Оригинальные и креативные подарки, Минск"
                 title="Оригинальные и креативные подарки, Минск"
                 src="/images/gift.png">
@@ -92,7 +116,13 @@ $content = '
         <h2 class="custom-main-color">
             Ищите оригинальные и креативные подарки?
         </h2>
-        ' .MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . ' нашла их для Вас!
+        <span class="block">
+            ' .MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . ' нашла их для Вас!
+        </span>
+        <span class="block">
+            <a class="custom-link" href="/pages/originalGifts/general.php"
+                title="Запоминающиеся подарки и сувениры ручной работы от студии ' . MSGapplicationTitle . '">' . MSGdetails . '</a>
+        </span>
     </div>
 </div>
 ';

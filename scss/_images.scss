@@ -1,5 +1,6 @@
 $thumbnail-search-size: 200px;
 $thumbnail-full-size: 100%;
+$common-image-size: 180px;
 
 .search-image {
   max-width: $thumbnail-search-size;
@@ -10,4 +11,11 @@ $thumbnail-full-size: 100%;
   max-width: $thumbnail-full-size;
   max-height: $thumbnail-full-size;
 }
+
+.common-image {
+  max-width: $common-image-size;
+  max-height: $common-image-size;
+}
+
+
 

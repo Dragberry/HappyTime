@@ -106,11 +106,21 @@ html, body {
 }
 
 /* line 102, ../scss/_general.scss */
+a.custom-link {
+  text-decoration: underline;
+  color: #f7dd74;
+}
+/* line 105, ../scss/_general.scss */
+a.custom-link:hover {
+  color: #ffcc00;
+}
+
+/* line 110, ../scss/_general.scss */
 .block {
   display: block;
 }
 
-/* line 107, ../scss/_general.scss */
+/* line 115, ../scss/_general.scss */
 .ui-state-default {
   border: none;
   background: #ffcc00;
@@ -118,40 +128,46 @@ html, body {
   color: black;
 }
 
-/* line 113, ../scss/_general.scss */
+/* line 121, ../scss/_general.scss */
 .ui-state-hover {
   background: #f7dd74;
 }
 
-/* line 117, ../scss/_general.scss */
+/* line 125, ../scss/_general.scss */
 .ui-dialog {
   border-radius: 1em;
   padding: 0;
 }
 
-/* line 122, ../scss/_general.scss */
+/* line 130, ../scss/_general.scss */
 .ui-widget-content {
   background: #003366;
   color: white;
   border: 1px #74bfdd solid;
 }
 
-/* line 128, ../scss/_general.scss */
+/* line 136, ../scss/_general.scss */
 .ui-widget-header {
   color: white;
   background: url("/images/tools/background_top_bar.png") repeat-x;
 }
 
-/* line 4, ../scss/_images.scss */
+/* line 5, ../scss/_images.scss */
 .search-image {
   max-width: 200px;
   max-height: 200px;
 }
 
-/* line 9, ../scss/_images.scss */
+/* line 10, ../scss/_images.scss */
 .full-image {
   max-width: 100%;
   max-height: 100%;
+}
+
+/* line 15, ../scss/_images.scss */
+.common-image {
+  max-width: 180px;
+  max-height: 180px;
 }
 
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */

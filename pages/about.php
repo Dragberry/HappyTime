@@ -10,7 +10,7 @@ $content = '
 </div>
 <div class="row valign-middle">
     <div class="small-12 medium-4 large-3 columns text-center">
-        <img class="home-image" src="/images/gift.png">
+        <img class="common-image" src="/images/gift.png">
      </div>
 
      <div class="small-12 medium-4 large-6 columns text-center">
@@ -43,7 +43,7 @@ $content = '
         </p>
      </div>
      <div class="small-12 medium-4 large-3 columns text-center">
-        <img class="home-image" src="/images/gift.png">
+        <img class="common-image" src="/images/gift.png">
      </div>
 </div>';
 include('components/template.php');
