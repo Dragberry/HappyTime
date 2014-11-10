@@ -16,7 +16,7 @@ define("MSGmainPage", "Главная");
 define("MSGballoons", "Воздушные шары");
 define("MSGoriginalGifts", "Оригинальные подарки");
 define("MSGholidayAccessories", "Аксессуары к празднику");
-define("MSGаnimatorsAndToastmaster", "Развлечения");
+define("MSGаnimatorsAndToastmaster", "Организация праздников");
 define("MSGentertainments", "Развлечения");
 define("MSGpromotions", "Акции и скидки");
 define("MSGaboutUs", "О нас");
@@ -72,4 +72,50 @@ define("MSGofferDescription", "Краткое описание");
 define("MSGofferCost", "Стоимость");
 define("MSGdoOrder", "Заказать");
 
+// Left menu
+$menuBalloons = array(
+    MSGlightBalloons => array("link" => "/pages/balloons/light.php", visibility => true),
+    MSGroundBalloons => array("link" => "/pages/balloons/round.php", visibility => true),
+    MSGmodellingBalloons => array("link" => "/pages/balloons/modelling.php", visibility => true),
+    MSGbouquetBalloons => array("link" => "/pages/balloons/bouquet.php", visibility => true),
+    MSGlettersBalloons => array("link" => "/pages/balloons/letters.php", visibility => true),
+    MSGweddingBalloons => array("link" => "/pages/balloons/wedding.php", visibility => true),
+    MSGinscriptionBalloons => array("link" => "/pages/balloons/inscription.php", visibility => true),
+    MSGheliumBalloons => array("link" => "/pages/balloons/helium.php", visibility => true)
+);
+
+$menuOriginalGifts = array();
+
+$menuAccessories = array(
+    MSGaccessoriesForWedding => array("link" => "/pages/accessories/wedding.php", visibility => true),
+    MSGaccessoriesForBirthday => array("link" => "/pages/accessories/birthday.php", visibility => true),
+    MSGaccessoriesForNewYear => array("link" => "/pages/accessories/newYear.php", visibility => true),
+    MSGallAccessories => array("link" => "/pages/accessories/all.php", visibility => true)
+);
+
+$menuActions = array(
+    MSGanimatorAndToastmasterAndSoundman => array("link" => "/pages/actions/party.php",  visibility => true),
+    MSGsantaClaus => array("link" => "/pages/actions/santaClaus.php",  visibility => true),
+    MSGoriginalCongratulation => array("link" => "/pages/actions/originalCongratulation.php",  visibility => true)
+
+);
+
+$menu = array(
+    MSGballoons => array("subMenu" => $menuBalloons, "link" => "/pages/balloons/general.php", visibility => true),
+    MSGoriginalGifts => array("subMenu" => $menuOriginalGifts, "link" => "/pages/originalGifts/general.php", visibility => true),
+    MSGholidayAccessories => array("subMenu" => $menuAccessories, "link" => "/pages/accessories/general.php", visibility => true),
+    MSGаnimatorsAndToastmaster => array("subMenu" => $menuActions, "link" => "/pages/actions/general.php", visibility => true)
+);
+// Right menu
+$menuPromotions = array(
+    MSGactions => array("link" => "/pages/promotions/actions.php", visibility => true),
+    MSGdiscountCards => array("link" => "/pages/promotions/discountCards.php", visibility => true),
+    MSGgiftCertificates => array("link" => "/pages/promotions/giftCertificates.php", visibility => true)
+);
+
+$menuAdditional = array(
+    MSGpromotions => array("subMenu" => $menuPromotions, "link" => "/pages/promotions/actions.php", visibility => true),
+    MSGaboutUs => array("subMenu" => array(), "link" => "/pages/about.php", visibility => true),
+    MSGorderAndDelivery => array("subMenu" => array(), "link" => "/pages/orderAndDelivery.php", visibility => true)
+);
 ?>

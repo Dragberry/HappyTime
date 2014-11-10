@@ -241,9 +241,6 @@ $content = '
 
         </div>
     </div>
-    <div class="row-center">
-
-    </div>
 ';
 include($_SERVER['DOCUMENT_ROOT'].'/pages/actions/components/actionsTemplate.php');
 ?>

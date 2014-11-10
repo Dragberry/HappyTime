@@ -16,11 +16,10 @@ $(function(){
 });
 
 $(function() {
-    var addUser;
     var dialog = $("#orderSantaClaus").dialog({
         title: "Дед Мороз и Снегурочка в Минске",
         autoOpen: false,
-        width: 480,
+        width: 420,
         modal: true,
         buttons: [{
             text: "Хорошо!",
@@ -40,5 +39,32 @@ $(function() {
 
     $( ".callToSanta" ).button().on( "click", function() {
         dialog.dialog( "open" );
+    });
+});
+
+$(function() {
+    var actionDialog = $("#actionDialog").dialog({
+        title: "Тамада, звукорежиссер и детский аниматор",
+        autoOpen: false,
+        width: 420,
+        modal: true,
+        buttons: [{
+            text: "Хорошо!",
+            click: function() {
+                $( this ).dialog( "close" );
+            }
+        }],
+
+        close: function() {
+            $( ".getAction").blur() ;
+        }
+    });
+
+    form = actionDialog.find( "form" ).on( "submit", function( event ) {
+        event.preventDefault();
+    });
+
+    $( ".getAction" ).button().on( "click", function() {
+        actionDialog.dialog( "open" );
     });
 });
