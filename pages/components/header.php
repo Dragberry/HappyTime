@@ -1,11 +1,16 @@
 <?php include("menu.php") ?>
 <div>
+    <?php
+        if ($headerContent)
+        {
+            echo($headerContent);
+        }
+    ?>
     <div class="header">
         <div>
             <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "\""); ?>>
                 <img class="home-image"
-                    alt="Дед Мороз на дом, Минск"
-                    title="Дед Мороз на дом, Минск"
+                    alt="Заказать Дедушуку Мороза и Снегурочку в  Минске"
                     src="/images/banners/santa_in_home.png">
             </a>
         </div>
@@ -13,15 +18,13 @@
             <a class="" href="/index.php">
                 <img class="home-image"
                      alt="Оригинальные поздравления, признания в любви, Минск"
-                     title="Оригинальные поздравления, признания в любви, Минск"
                      src="/images/banners/info.png">
             </a>
         </div>
         <div>
             <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "#office\""); ?>>
                 <img class="home-image"
-                     alt="Дед Мороз в офис в Минске"
-                     title="Дед Мороз в офис в Минске"
+                     alt="Позвать Деда Мороза в офис в Минске"
                      src="/images/banners/santa_in_office.png">
             </a>
         </div>

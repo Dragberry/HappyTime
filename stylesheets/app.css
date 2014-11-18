@@ -152,6 +152,11 @@ a.custom-link:hover {
   background: url("/images/tools/background_top_bar.png") repeat-x;
 }
 
+/* line 141, ../scss/_general.scss */
+.hidden-header {
+  margin-top: -2.5rem;
+}
+
 /* line 5, ../scss/_images.scss */
 .search-image {
   max-width: 200px;

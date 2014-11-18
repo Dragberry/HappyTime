@@ -3,15 +3,22 @@ include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
 $title = "Организация праздников. Проведение торжеств. Креативные сценарии. Активные поздравления. Минск";
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink="";
+$headerContent = '
+ <h1 class="hidden-header">
+    <a class="" href="' . $menuActions[MSGsantaClaus]["link"] . '">
+        Профессиональная организация праздников. Оригинальные сценарии. Активные поздравления. Минск!
+    </a>
+</h1>
+';
 $content = '
      <div class="row text-center">
         <div class="small-12 medium-12 large-12 columns">
-            <h1>
+            <h2>
                 Организация праздников, проведение торжеств в городе Минске.
-            </h1>
+            </h2>
         </div>
         <div class="small-12 medium-12 large-12 columns">
-            <h2>
+            <h3>
                 <span class="block">
                 Наша ' .MSGalterApplicationTitle . ' ' . MSGapplicationTitleQuotes . '
                 поможет Вам  грамотно составить сценарий вашего праздника, организует музыкальное сопровождение,
@@ -20,7 +27,7 @@ $content = '
                 <span class="block">
                 Вам будет, что вспомнить!
                 </span>
-            </h2>
+            </h3>
             <p>
                 <span class="block">
                     <a class="custom-text-color"

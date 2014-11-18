@@ -3,10 +3,17 @@ include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
 $title='Оригинальные признания в любви и поздравления в виде приключения по Минску';
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGoriginalCongratulation;
+$headerContent = '
+ <h1 class="hidden-header">
+    <a class="" href="' . $menuActions[MSGoriginalCongratulation]["link"] . '">
+        Организация креативных поздравлений и признаний в любви.
+    </a>
+</h1>
+';
 $content = '
     <div class="row text-center">
         <div class="small-12 medium-12 large-12 columns">
-            <h1>
+            <h2 class="custom-main-color">
                 <span style="display: block">
                 ОРИГИНАЛЬНОЕ КВЕСТ-ПОЗДРАВЛЕНИЕ
                 </span>
@@ -16,11 +23,11 @@ $content = '
                 <span style="display: block">
                 КВЕСТ-ПРИЗНАНИЕ В ЛЮБВИ
                 </span>
-            </h1>
+            </h2>
 
         </div>
         <div class="small-12 medium-12 large-12 columns">
-            <h2>
+            <h3>
                 <span style="display: block">
                 ВЫ ХОТИТЕ, ЧТОБЫ ПРОЦЕСС ПРЕПОДНЕСЕНИЯ ПОДАРКА УДИВИЛ ИМЕНИННИКА?
                 </span>
@@ -30,12 +37,11 @@ $content = '
                 <span style="display: block">
                 ПОЗДРАВЛЯЮ! ВЫ НАШЛИ, ЧТО ИСКАЛИ!
                 </span>
-            </h2>
+            </h3>
         </div>
         <div class="small-12 medium-12 large-12 columns">
             <img class="home-image"
-                alt="Оригинальное поздравление в виде квеста"
-                title="Оригинальное поздравление в виде приключения"
+                alt="Необычное поздравление в виде квеста"
                 src="/images/actions/gift_map.png">
             <p>
                 Наверное, каждый человек хотел бы получить поздравление в форме квеста или приключения. Суть данного поздравления заключается в следующем:

@@ -3,12 +3,19 @@ include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
 $title = 'Профессиональная помощь в организации праздников и торжеств. Тамада, аниматор, звукорежиссер.';
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGanimatorAndToastmasterAndSoundman;
+$headerContent = '
+ <h1 class="hidden-header">
+    <a class="" href="' . $menuActions[MSGanimatorAndToastmasterAndSoundman]["link"] . '">
+        Проведение праздников, свадеб, торжеств в городе Минске.
+    </a>
+</h1>
+';
 $content = '
     <div class="row text-center">
         <div class="small-12 medium-12 large-12 columns">
-            <h1>
+            <h2>
                 Хотите сделать Ваш праздник незабываемым, веселым и полным радостных эмоций?
-            </h1>
+            </h2>
         </div>
         <div class="small-12 medium-12 large-12 columns">
             <h2>

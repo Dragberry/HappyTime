@@ -1,21 +1,28 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
-$title = "Дед Мороз и Снегурочка на дом в Минске";
+$title = "Дед Мороз и Снегурочка у Вас дома в Минске";
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGsantaClaus;
+$headerContent = '
+ <h1 class="hidden-header">
+    <a class="" href="' . $menu[MSGballoons]["link"] . '">
+        Заказать Деда Мороза и Снегурочку на дом в Минске!
+    </a>
+</h1>
+';
 $content = '
     <div class="row text-center">
         <div class="small-12 medium-12 large-12 columns">
-            <h1>
+            <h2 class="custom-main-color">
                 ПРИГЛАСИТЕ СКАЗОЧНЫХ ДЕДА МОРОЗА И СНЕГУРОЧКУ К СЕБЕ ДОМОЙ В МИНСКЕ!
-            </h1>
+            </h2>
         </div>
         <div class="small-12 medium-12 large-12 columns">
-            <h2 class="custom-main-color">
+            <p class="custom-main-color">
                 Подарите своим детишкам
                 на новогодние праздники сказочное счастье!
                 Дед Мороз и Снегурочка в каждый дом!
-            </h2>
+            </p>
         </div>
         <div class="small-12 medium-12 large-12 columns">
             <p>
@@ -27,7 +34,7 @@ $content = '
             <br />
         </div>
         <div class="small-12 medium-8 large-6 price-panel columns">
-            <h2>Дед Мороз и Снегурочка на дом:</h2>
+            <h2>Наш Дед Мороз работает по самым низким ценам в городе Минске:</h2>
                 <span class="block">
                 до 25 декабря - 250.000 рублей
                 </span>
@@ -55,7 +62,7 @@ $content = '
         </div>
         <div class="small-12 medium-12 large-12 price-panel columns">
             <span class="block">
-                Если позвонить Деду Морозу <b>до 15 декабря</b>, то сказочные эльфы успеют изготовить всем детям по подарку!
+                Если позвонить Дедушке Морозу <b>до 15 декабря</b>, то сказочные эльфы успеют изготовить всем детям по подарку!
             </span>
         </div>
         <div class="small-12 medium-12 large-12 columns">
@@ -65,19 +72,25 @@ $content = '
         <div class="small-12 medium-12 large-12 columns">
             <h2 class="custom-main-color">
                 Дед Мороз и Снегурочка на детский утренник
-                в детский сад, школу и любую другую организацию!
+                в детский сад, школу и любую другую организацию.
             </h2>
         </div>
         <div class="small-12 medium-12 large-12 columns">
             <p>
+                <span class="block">
+                Работаете с детьми и в преддверии  новогодних праздников задумались о том, как превратить Новый Год в детскую сказку?
+                Дед Мороз и Снегурочка из студии праздников ' . MSGapplicationTitleQuotes . ' готовы прийти к Вам на помощь!
+                </span>
+                <span class="block">
                 Программа включает в себя игры с призами, шутки, загадки, хороводы,
                 веселые песни, сказочные поздравления, вручение подарков и многое другое
+                </span>
             </p>
         </div>
         <div class="row">
             <div class="small-12 medium-6 large-6 columns">
                 <div class="price-panel"  style="height: 16em">
-                    <h2>Дед Мороз и Снегурочка на детский утренник:</h2>
+                    <h2>Сделайте праздничный утренник для ваших деток незабываемым:</h2>
                     <span class="block">
                     Программа от студии праздников ' . MSGapplicationTitleQuotes . ':
                     <span class="block">
@@ -96,15 +109,15 @@ $content = '
             </div>
             <div class="small-12 medium-6 large-6 columns" >
                 <div class="price-panel"  style="height: 16em">
-                    <h2>Дед Мороз и Снегурочка на детский утренник:</h2>
+                    <h2>Превратите Новый год в детскую сказку:</h2>
                     <span class="block">
                     Программа по сценарию организаторов утренника
                     </span>
                     <span class="block">
-                    (Дед Мороз и Снегурочка работают по сценарию организаторов утренника + предлагают свои миниконкурсы).
+                    (Дед Мороз и Снегурочка работают по сценарию организаторов утренника + предлагают свой минисценарий).
                     </span>
                     <span class="block">
-                    20-30 человек (30-40 минут) - 700.000 рублей
+                    20-30 человек (30-40 минут) - 500.000 рублей
                     </span>
                 </div>
             </div>
@@ -134,9 +147,9 @@ $content = '
             <br />
         </div>
         <div class="small-12 medium-8 large-6 price-panel columns">
-            <h2>Дед Мороз и Снегурочка в офис:</h2>
+            <h2>Мы поможем разукрасить Ваш офисный праздник</h2>
             <span class="block">
-            300.000 рублей
+            всего за 300.000 рублей
             </span>
         </div>
         <div class="show-for-medium-up medium-2 large-3 columns">
@@ -153,13 +166,21 @@ $content = '
         </div>
         <div class="small-12 medium-12 large-12 columns">
             <p>
+                <span class="block">
+                Для сплочения рабочего колллектива просто необходимо создавать как можно больше веселых и запоминающихся ситуаций!
+                </span>
+                <span class="block">
+                Порадуйте своих сотрудников на этот Новый Год - закажите на корпоратив Деда Мороза и его внучку Снегурочку!
+                </span>
+                <span class="block">
                 Программа включает: шутки, поздравления, конкурсы и игры с призами, песни (живое исполнение) и танцы.
+                </span>
             </p>
         </div>
         <div class="row">
             <div class="small-12 medium-6 large-6 columns">
                 <div class="price-panel"  style="height: 10em">
-                    <h2>Дед Мороз и Снегурочка на корпоратив:</h2>
+                    <h2>Качественный новогодний корпоратив по демократичным ценам:</h2>
                     <span class="block">
                     1 час - 400.000 рублей
                     </span>
@@ -187,8 +208,7 @@ $content = '
         <div class="row valign-middle">
             <div class="small-12 medium-4 large-4 columns">
                 <img class="home-image"
-                    alt="Дед мороз на дом, в офис, на корпоратив"
-                    title="Дед мороз на дом, в офис, на корпоратив"
+                    alt="Сколько стоит заказать Деда Мороза в Минске"
                     src="/images/actions/santa_calling.png">
             </div>
             <div class="small-12 medium-4 large-4 columns">
@@ -198,8 +218,7 @@ $content = '
             </div>
             <div class="small-12 medium-4 large-4 columns">
                 <img class="home-image"
-                    alt="Дед мороз на дом, в офис, на корпоратив"
-                    title="Дед мороз на дом, в офис, на корпоратив"
+                    alt="Узнать цену на Деда Мороза в Минске"
                     src="/images/actions/christmas_tree.png">
             </div>
         </div>

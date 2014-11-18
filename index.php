@@ -1,6 +1,15 @@
 <?php
 include('pages/components/messages.php');
-$title =  'Организация праздников, оригинальных поздравлений в Минске. Дед Мороз и Снегурочка на дом.';
+//$title =  'Организация праздников, оригинальных поздравлений в Минске. Дед Мороз и Снегурочка на дом.';
+$title =  'Дед Мороз и Снегурочка на дом. Организация новогодних и других торжеств.';
+$headerContent = '
+ <h1 class="hidden-header">
+    <a class="" href="' . $menuActions[MSGsantaClaus]["link"] . '">
+        Заказать Деда Мороза и Снегурочку на дом в Минске, недорого.
+        Новогодние поздравления у Вас дома, на детском утреннике, офисе , корпоративе.
+    </a>
+</h1>
+';
 $content = '
 <div class="row">
     <div class="small-12 medium-12 large-12 columns">
@@ -9,10 +18,10 @@ $content = '
 </div>
 <div class="row">
     <div class="small-12 medium-12 large-12 columns">
-        <h1 class="text-center">
+        <h2 class="text-center">
             <span style="display: block">ДОБРО ПОЖАЛОВАТЬ В СТУДИЮ ПРАЗДНИКОВ</span>
             <span style="display: block">' . MSGapplicationTitleQuotes . '</span>
-        </h1>
+        </h2>
     </div>
 </div>
 <div class="row valign-middle">

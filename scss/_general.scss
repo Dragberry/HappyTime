@@ -137,3 +137,7 @@ html, body {
   color: $custom-text-color;
   background: url('/images/tools/background_top_bar.png') repeat-x;
 }
+
+.hidden-header {
+  margin-top: - rem-calc(40);
+}

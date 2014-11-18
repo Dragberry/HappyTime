@@ -1,7 +1,7 @@
 <?php
     header('Content-Type: text/html; charset=utf-8');
     if ($urlToRedirect) {
-        header('Location: ' . $urlToRedirect);
+        header('Location: ' . "/pages/index.php");
     }
 ?>
 <!doctype html>
@@ -19,11 +19,11 @@
 <body>
     <div class="page-wrapper">
         <div class="row">
-        <div class="large-12 columns header">
+        <div class="large-12 columns">
             <?php include($_SERVER['DOCUMENT_ROOT']."/pages/components/header.php"); ?>
         </div>
         <div class="small-12 medium-12 large-12 columns">
-            <div class="left-side-bar show-for-medium-up medium-3 large-3 columns">
+            <div class="left-side-bar show-for-medium-up medium-3 large-3 columns" style="margin-top: 1em !important;">
                 <br />
                 <?php
                     if ($sideBarLeft)
