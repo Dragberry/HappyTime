@@ -4,7 +4,7 @@ $title = "Дед Мороз и Снегурочка у Вас дома в Мин
 $metaDescription = '
     Хотите заказать Деда Мороза и Снегурочку к себе домой? Нужно организовать новогодний праздник в детском саду?
     Желаете весело порадовать своих коллег и сотрудников оригинальным поздравлением на Новый год?
-    Все это вы найдете в студии праздников ' . MSGapplicationTitleQuotes;
+    Все это вы найдете в студии праздников ' . MSGapplicationTitle;
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGsantaClaus;
 $headerContent = '
