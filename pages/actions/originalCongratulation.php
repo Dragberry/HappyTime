@@ -1,6 +1,10 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
 $title='Оригинальные признания в любви и поздравления в виде приключения по Минску';
+$metaDescription = '
+    Желаете сделать незабываем день рождения дорогого Вам человека?
+    Или выразить Вши чувства любимому человеку в креативной форме?
+    Студия праздников ' . MSGapplicationTitleQuotes . ' поможет Вам организовать незыбваемое поздравление в виде приключения!';
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGoriginalCongratulation;
 $headerContent = '

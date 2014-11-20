@@ -9,6 +9,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <?php
+        if ($metaDescription)
+        {
+          echo('<meta name="description" content="' . $metaDescription . '">');
+        }
+    ?>
     <title><?php echo $title . " - " . MSGurl; ?></title>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="/bower_components/jquery-ui/jquery-ui.min.css"/>

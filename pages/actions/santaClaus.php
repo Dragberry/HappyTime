@@ -1,12 +1,16 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
 $title = "Дед Мороз и Снегурочка у Вас дома в Минске";
+$metaDescription = '
+    Хотите заказать Деда Мороза и Снегурочку к себе домой? Нужно организовать новогодний праздник в детском саду?
+    Желаете весело порадовать своих коллег и сотрудников оригинальным поздравлением на Новый год?
+    Все это вы найдете в студии праздников ' . MSGapplicationTitleQuotes;
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGsantaClaus;
 $headerContent = '
  <h1 class="hidden-header">
     <a class="" href="' . $menu[MSGballoons]["link"] . '">
-        Заказать Деда Мороза и Снегурочку на дом в Минске!
+        Заказать Деда Мороза и Снегурочку на дом, утренник, корпоратив в Минске!
     </a>
 </h1>
 ';
@@ -14,14 +18,14 @@ $content = '
     <div class="row text-center">
         <div class="small-12 medium-12 large-12 columns">
             <h2 class="custom-main-color">
-                ПРИГЛАСИТЕ СКАЗОЧНЫХ ДЕДА МОРОЗА И СНЕГУРОЧКУ К СЕБЕ ДОМОЙ В МИНСКЕ!
+                НОВОГОДНИЕ ПОЗДРАВЛЕНИЯ У ВАС ДОМА, НА ДЕТСКОМ УТРЕННИКЕ, КОРПОРАТИВЕ!
             </h2>
         </div>
         <div class="small-12 medium-12 large-12 columns">
             <p class="custom-main-color">
                 Подарите своим детишкам
                 на новогодние праздники сказочное счастье!
-                Дед Мороз и Снегурочка в каждый дом!
+                Пригласите сказочных Деда Мороза и его внучку к себе домой!
             </p>
         </div>
         <div class="small-12 medium-12 large-12 columns">
@@ -72,7 +76,7 @@ $content = '
         <div class="small-12 medium-12 large-12 columns">
             <h2 class="custom-main-color">
                 Дед Мороз и Снегурочка на детский утренник
-                в детский сад, школу и любую другую организацию.
+                в детский сад, школу и любую другую организацию города Минска.
             </h2>
         </div>
         <div class="small-12 medium-12 large-12 columns">
@@ -90,7 +94,7 @@ $content = '
         <div class="row">
             <div class="small-12 medium-6 large-6 columns">
                 <div class="price-panel"  style="height: 16em">
-                    <h2>Сделайте праздничный утренник для ваших деток незабываемым:</h2>
+                    <h2>Дед Мороз может навестить утренник со своими идеями </h2>
                     <span class="block">
                     Программа от студии праздников ' . MSGapplicationTitleQuotes . ':
                     <span class="block">
@@ -109,9 +113,9 @@ $content = '
             </div>
             <div class="small-12 medium-6 large-6 columns" >
                 <div class="price-panel"  style="height: 16em">
-                    <h2>Превратите Новый год в детскую сказку:</h2>
+                    <h2>А также работать по Вашему плану</h2>
                     <span class="block">
-                    Программа по сценарию организаторов утренника
+                    Программа по сценарию организаторов утренника:
                     </span>
                     <span class="block">
                     (Дед Мороз и Снегурочка работают по сценарию организаторов утренника + предлагают свой минисценарий).
@@ -141,13 +145,17 @@ $content = '
         <div class="small-12 medium-12 large-12 columns">
             <p>
                 Шуточная программа включает в себя поздравления и веселые конкурсы.
+                Мы поможем разукрасить Ваш офисный праздник!
             </p>
         </div>
         <div class="show-for-medium-up medium-2 large-3 columns">
             <br />
         </div>
         <div class="small-12 medium-8 large-6 price-panel columns">
-            <h2>Мы поможем разукрасить Ваш офисный праздник</h2>
+            <h2>Хотите узнать, сколько стоит заказать Деда Мороза в офис?</h2>
+            <span class="block">
+                Наши сказочные герои навестят ваших коллег
+            </span>
             <span class="block">
             всего за 300.000 рублей
             </span>
@@ -161,7 +169,7 @@ $content = '
         <hr />
         <div class="small-12 medium-12 large-12 columns">
             <h2 class="custom-main-color">
-                Дед Мороз и Снегурочка на корпоратив!
+                Дед Мороз и Снегурочка на корпоратив в городе Минске!
             </h2>
         </div>
         <div class="small-12 medium-12 large-12 columns">
