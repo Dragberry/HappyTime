@@ -78,5 +78,6 @@
     <script src="/bower_components/jquery-ui/i18n/ui.datepicker-ru.js"></script>
     <script src="/bower_components/foundation/js/foundation.min.js"></script>
     <script type="text/javascript" src="/bower_components/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/bower_components/jquery.snow.min.1.0.js"></script>
     <script src="/js/app.js"></script>
 <body>

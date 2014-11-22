@@ -74,53 +74,57 @@ html, body {
   color: black;
   font-weight: bold;
 }
+/* line 76, ../scss/_general.scss */
+.price-panel h3 {
+  font-weight: bold;
+}
 
-/* line 78, ../scss/_general.scss */
+/* line 82, ../scss/_general.scss */
 .custom-main-color {
   color: #ffcc00;
 }
 
-/* line 82, ../scss/_general.scss */
+/* line 86, ../scss/_general.scss */
 .custom-minor-color {
   color: #f7dd74;
 }
 
-/* line 86, ../scss/_general.scss */
+/* line 90, ../scss/_general.scss */
 .custom-alter-main-color {
   color: #56d5e5;
 }
 
-/* line 90, ../scss/_general.scss */
+/* line 94, ../scss/_general.scss */
 .custom-alter-minor-color {
   color: #f7dd74;
 }
 
-/* line 94, ../scss/_general.scss */
+/* line 98, ../scss/_general.scss */
 .custom-text-color {
   color: white;
 }
 
-/* line 98, ../scss/_general.scss */
+/* line 102, ../scss/_general.scss */
 .custom-alter-text-color {
   color: black;
 }
 
-/* line 102, ../scss/_general.scss */
+/* line 106, ../scss/_general.scss */
 a.custom-link {
   text-decoration: underline;
   color: #f7dd74;
 }
-/* line 105, ../scss/_general.scss */
+/* line 109, ../scss/_general.scss */
 a.custom-link:hover {
   color: #ffcc00;
 }
 
-/* line 110, ../scss/_general.scss */
+/* line 114, ../scss/_general.scss */
 .block {
   display: block;
 }
 
-/* line 115, ../scss/_general.scss */
+/* line 119, ../scss/_general.scss */
 .ui-state-default {
   border: none;
   background: #ffcc00;
@@ -128,40 +132,45 @@ a.custom-link:hover {
   color: black;
 }
 
-/* line 121, ../scss/_general.scss */
+/* line 125, ../scss/_general.scss */
 .ui-state-hover {
   background: #f7dd74;
 }
 
-/* line 125, ../scss/_general.scss */
+/* line 129, ../scss/_general.scss */
 .ui-dialog {
   border-radius: 1em;
   padding: 0;
 }
 
-/* line 130, ../scss/_general.scss */
+/* line 134, ../scss/_general.scss */
 .ui-widget-content {
   background: #003366;
   color: white;
   border: 1px #74bfdd solid;
 }
 
-/* line 136, ../scss/_general.scss */
+/* line 140, ../scss/_general.scss */
 .ui-widget-header {
   color: white;
   background: url("/images/tools/background_top_bar.png") repeat-x;
 }
 
-/* line 141, ../scss/_general.scss */
+/* line 145, ../scss/_general.scss */
 .hidden-header {
   margin-top: -2.5rem;
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 147, ../scss/_general.scss */
+/* line 151, ../scss/_general.scss */
 label {
   color: #56d5e5;
+}
+
+/* line 155, ../scss/_general.scss */
+strong {
+  font-weight: normal;
 }
 
 /* line 5, ../scss/_images.scss */

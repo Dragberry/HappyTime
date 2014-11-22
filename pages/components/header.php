@@ -5,26 +5,37 @@
         {
             echo($headerContent);
         }
+
+        function getHeaderImageAlt($activeSubLink, $menu, $alt)
+        {
+            if (strcmp($activeSubLink, $menu) == 0)
+            {
+                return $alt;
+            }  else {
+                return 'Студия праздников ' . MSGapplicationTitle;
+            }
+        }
+
     ?>
     <div class="header">
         <div>
             <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "\""); ?>>
                 <img class="home-image"
-                    alt="Заказать Дедушуку Мороза и Снегурочку в  Минске"
+                    alt=<?php echo(getHeaderImageAlt($activeSubLink, MSGsantaClaus, 'Заказать Деда Мороза и Снегурочку в  Минске')) ?>
                     src="/images/banners/santa_in_home.png">
             </a>
         </div>
         <div>
             <a class="" href="/index.php">
                 <img class="home-image"
-                     alt="Оригинальные поздравления, признания в любви, Минск"
+                     alt=<?php echo('Студия праздников ' . MSGapplicationTitle)?>
                      src="/images/banners/info.png">
             </a>
         </div>
         <div>
             <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "#office\""); ?>>
                 <img class="home-image"
-                     alt="Позвать Деда Мороза в офис в Минске"
+                     alt=<?php echo(getHeaderImageAlt($activeSubLink, MSGsantaClaus, 'Вызвать Деда Мороза в офис в Минске'))?>
                      src="/images/banners/santa_in_office.png">
             </a>
         </div>

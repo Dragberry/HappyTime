@@ -8,6 +8,11 @@ $(document).ready(function(){
         speed: 1000
     });
 });
+
+$(document).ready( function(){
+    $.fn.snow();
+});
+
 $(function(){
     $.datepicker.setDefaults(
         $.extend($.datepicker.regional["ru"])
@@ -103,3 +108,4 @@ $(function() {
         actionDialog.dialog( "open" );
     });
 });
+

@@ -72,6 +72,10 @@ html, body {
     color: $black;
     font-weight: $font-weight-bold;
   }
+
+  h3 {
+    font-weight: $font-weight-bold;
+  }
 }
 
 // Types and fonts
@@ -146,4 +150,8 @@ html, body {
 
  label {
    color: $custom-alter-main-text-color;
+ }
+
+ strong {
+   font-weight: normal;
  }
