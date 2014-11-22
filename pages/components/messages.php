@@ -3,7 +3,7 @@
 define("MSGapplicationTitle", "HappyTime");
 define("MSGapplicationTitleQuotes", "\"" . MSGapplicationTitle . "\"");
 define("MSGalterApplicationTitle", "Студия праздников");
-define("MSGemail", "HappyTime@mail.ru");
+define("MSGemail", "mail@happytime.by");
 define("MSGurl", "HappyTime.by");
 define("MSGprice", "Цены:");
 define("MSGdetails", "Подробнее...");

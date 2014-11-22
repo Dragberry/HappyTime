@@ -87,7 +87,7 @@ html, body {
 
 /* line 86, ../scss/_general.scss */
 .custom-alter-main-color {
-  color: #dd48e7;
+  color: #56d5e5;
 }
 
 /* line 90, ../scss/_general.scss */
@@ -157,6 +157,11 @@ a.custom-link:hover {
   margin-top: -2.5rem;
   overflow: hidden;
   white-space: nowrap;
+}
+
+/* line 147, ../scss/_general.scss */
+label {
+  color: #56d5e5;
 }
 
 /* line 5, ../scss/_images.scss */
@@ -4067,7 +4072,7 @@ form .row textarea.columns {
 /* line 381, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label {
   font-size: 0.875rem;
-  color: #4d4d4d;
+  color: #56d5e5;
   cursor: pointer;
   display: block;
   font-weight: normal;
@@ -4088,7 +4093,7 @@ label.inline {
 /* line 385, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label small {
   text-transform: capitalize;
-  color: #676767;
+  color: #6fdbe9;
 }
 
 /* line 391, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -4581,7 +4586,7 @@ span.error, small.error {
 }
 /* line 560, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error > label > small {
-  color: #676767;
+  color: #6fdbe9;
   background: transparent;
   padding: 0;
   text-transform: capitalize;

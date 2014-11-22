@@ -17,6 +17,9 @@ $headerContent = '
 $content = '
     <div class="row text-center">
         <div class="small-12 medium-12 large-12 columns">
+            <div id="results"></div>
+
+
             <h2 class="custom-main-color">
                 НОВОГОДНИЕ ПОЗДРАВЛЕНИЯ У ВАС ДОМА, НА ДЕТСКОМ УТРЕННИКЕ, КОРПОРАТИВЕ!
             </h2>
@@ -243,14 +246,45 @@ $content = '
                 ' . MSGmtsPhone . '
                 </span>
                 <span class="block">
-                Или пришлите письмо на нашу электронную почту
+                Или воспользуйтесь формой ниже, и мы обязательно свяжемся с Вами!
                 </span>
-                <span class="block custom-main-color"><b>
-                ' . MSGemail . '
-                </b></span>
-                <span class="block">
-                с указанием имени и номера вашего контактного телефона.
-                </span>
+                </div>
+                <br />
+                <div class="row">
+                    <form id="orderSantaForm" method="POST">
+                        <div class="large-12 columns">
+                          <label>Ваше имя:
+                            <input name="name" id="name" type="text" placeholder="Введите имя" />
+                          </label>
+                        </div>
+                        <div class="large-12 columns">
+                          <label>Ваш контактный телефон:
+                            <input name="phone" id="phone" type="text" placeholder="Введите телефон" />
+                          </label>
+                        </div>
+                        <div class="large-12 columns">
+                            <label>Куда Вы хотите пригласить Деда Мороза?
+                            <select name="type" id="type">
+                              <option value="К себе домой" selected>К себе домой</option>
+                              <option value="На утренник/детский сад">На утренник/детский сад</option>
+                              <option value="В офис/на работу">В офис/на работу</option>
+                              <option value="На корпоратив">На корпоратив</option>
+                            </select>
+                          </label>
+                        </div>
+                        <div class="large-12 columns">
+                          <label>Дата и время посещения:
+                            <input name="time"  name="time" type="text" placeholder="Введите удобное для Вас время" />
+                          </label>
+                        </div>
+                        <div class="large-12 columns">
+                            <label>Дополнительная информация:
+                                <textarea name="info" id="info"  placeholder="Введите Ваши пожелания, удобное время для звонка и др."></textarea>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="row text-center">
 
                 <br />
                 <hr />
