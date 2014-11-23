@@ -2,14 +2,15 @@
 include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
 $title = "Дед Мороз и Снегурочка на дом в Минске. Заказать поздравление.";
 $metaDescription = '
-    Хотите заказать Деда Мороза и Снегурочку к себе домой, на детский утренник или корпоратив?
+    Заказ Деда Мороза и Снегурочку на дом, на детский утренник или корпоратив?
     Вы можете сделать это в студии праздников ' . MSGapplicationTitle;
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGsantaClaus;
 $headerContent = '
  <h1 class="hidden-header">
     <a class="" href="' . $menu[MSGballoons]["link"] . '">
-        Заказать Деда Мороза на дом, утренник, корпоратив в Минске!
+        Заказ Деда Мороза и Снегурочки на дом, утренник, корпоратив в Минске. Недорого, от 22 уе.
+        Дед Мороз и Снегурочка  навестят Вас с поздравлением.
     </a>
 </h1>
 ';
@@ -21,7 +22,7 @@ $content = '
             </h2>
         </div>
         <div class="small-12 medium-12 large-12 columns">
-            <h2  class="custom-main-color">Дед Мороз и снегурочка на дом в Минске</h2>
+            <h2  class="custom-main-color">Дед Мороз и Снегурочка на дом в Минске</h2>
             <p>
                 Наверняка все в детстве мечтали окунуться в сказку. А при приближении <strong>Нового Года</strong> это желание только усиливается!
                 Ведь этот праздник - пора чудес, грез и мечтаний!
@@ -51,7 +52,10 @@ $content = '
                 30 декабря - 350.000 рублей
                 </span>
                 <span class="block">
-                31 декабря до 18.00 - 400.000 рублей
+                31 декабря до 14.00 - 400.000 рублей
+                </span>
+                <span class="block">
+                31 декабря с 14.00 до 18.00 - 450.000 рублей
                 </span>
                 <span class="block">
                 31 декабря с 18.00 - 500.000 рублей
@@ -77,7 +81,7 @@ $content = '
         <hr />
         <div class="small-12 medium-12 large-12 columns">
             <h2 class="custom-main-color">
-                Дед Мороз и <strong>Снегурочка на детский утренник</strong>
+                <strong>Дед Мороз и Снегурочка на детский утренник</strong>
                 в детский сад, школу и любую другую организацию города Минска.
             </h2>
         </div>
@@ -96,7 +100,7 @@ $content = '
         <div class="row">
             <div class="small-12 medium-6 large-6 columns">
                 <div class="price-panel"  style="height: 16em">
-                    <h3 class="custom-alter-text-color">Дед Мороз может навестить утренник со своими идеями </h3>
+                    <h3 class="custom-alter-text-color">Деда Мороза можно пригласить на утренник со своими идеями </h3>
                     <span class="block">
                     Программа от студии праздников ' . MSGapplicationTitleQuotes . ':
                     <span class="block">
@@ -115,7 +119,7 @@ $content = '
             </div>
             <div class="small-12 medium-6 large-6 columns" >
                 <div class="price-panel"  style="height: 16em">
-                    <h3 class="custom-alter-text-color">А также работать по Вашему плану</h3>
+                    <h3 class="custom-alter-text-color">А также предложить ему работать по Вашему плану</h3>
                     <span class="block">
                     Программа по сценарию организаторов утренника:
                     </span>
@@ -140,7 +144,7 @@ $content = '
         <div class="small-12 medium-12 large-12 columns">
             <a name="office"></a>
             <h2 class="custom-main-color">
-                <strong>Дед Мороз и Снегурочка в офис!</strong>
+                <strong>Дед Мороз и Снегурочка в офис в городе Минске!</strong>
                 Подарите счастье своим сотрудникам и коллегам!
             </h2>
         </div>
@@ -180,7 +184,7 @@ $content = '
                 Для сплочения рабочего колллектива просто необходимо создавать как можно больше веселых и запоминающихся ситуаций!
                 </span>
                 <span class="block">
-                Порадуйте своих сотрудников на этот Новый Год - попробудйте <strong>заказать на корпоратив Деда Мороза</strong> и его внучку Снегурочку!
+                Порадуйте своих сотрудников на этот Новый Год - попробуйте <strong>заказать на корпоратив Деда Мороза</strong> и его внучку Снегурочку!
                 </span>
                 <span class="block">
                 Программа включает: шутки, поздравления, конкурсы и игры с призами, песни (живое исполнение) и танцы.

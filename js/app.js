@@ -9,10 +9,6 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready( function(){
-    $.fn.snow();
-});
-
 $(function(){
     $.datepicker.setDefaults(
         $.extend($.datepicker.regional["ru"])

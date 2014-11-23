@@ -36,7 +36,7 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
 
-mail($MSGemail, 'Заказ на Деда Мороза', $message, $headers);
+mail('mail@happytime.by', 'Заказ на Деда Мороза', $message, $headers);
 mail('max-hellfire@mail.ru', 'Заказ на Деда Мороза', $message, $headers);
 mail('yuria-25@mail.ru', 'Заказ на Деда Мороза', $message, $headers);
 mail('HappyTime.by@mail.ru', 'Заказ на Деда Мороза', $message, $headers);
