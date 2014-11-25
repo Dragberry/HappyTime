@@ -4,7 +4,7 @@ $title = 'Профессиональная помощь в организаци�
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGanimatorAndToastmasterAndSoundman;
 $headerContent = '
- <h1 class="hidden-header">
+ <h1 class="header-title">
     <a class="" href="' . $menuActions[MSGanimatorAndToastmasterAndSoundman]["link"] . '">
         Проведение праздников, свадеб, торжеств в городе Минске.
     </a>

@@ -1,6 +1,6 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/pages/components/messages.php');
-$title=MSGalterApplicationTitle;
+$title='Купить оригинальные подарки и сувениры ручной работы';
 $activeLink=MSGoriginalGifts;
 $activeSubLink="";
 if (!$content)

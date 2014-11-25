@@ -7,6 +7,17 @@ $(document).ready(function(){
         autoplaySpeed: 3500,
         speed: 1000
     });
+
+    $('#time').datetimepicker({
+        formatTime:'H:i',
+        formatDate:'d.m.Y',
+        defaultTime:'12:00',
+        timepickerScrollbar:false,
+        lang:'ru',
+        weekends:['01.01.2015','02.01.2015','07.01.2015','31.12.2014','25.12.2014'],
+        dayOfWeekStart: 1
+    });
+
 });
 
 $(function(){
@@ -15,6 +26,7 @@ $(function(){
     );
     $("#mainCalendar").datepicker();
 });
+
 
 $(function() {
     var orderSantaDialog;

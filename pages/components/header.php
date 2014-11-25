@@ -21,7 +21,7 @@
         <div>
             <a class="" href=<?php echo("\"" . $menuActions[MSGsantaClaus]["link"] . "\""); ?>>
                 <img class="home-image"
-                    alt=<?php echo(getHeaderImageAlt($activeSubLink, MSGsantaClaus, 'Заказать Деда Мороза и Снегурочку в  Минске')) ?>
+                    alt=<?php echo(getHeaderImageAlt($activeSubLink, MSGsantaClaus, 'Заказать Деда Мороза на дом в  Минске')) ?>
                     src="/images/banners/santa_in_home.png">
             </a>
         </div>

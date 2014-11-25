@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="/bower_components/jquery-ui/jquery-ui.min.css"/>
     <link rel="stylesheet" href="/stylesheets/app.css" />
     <link rel="stylesheet" type="text/css" href="/bower_components/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/datetimepicker/jquery.datetimepicker.css"/>
     <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -78,6 +79,7 @@
     <script src="/bower_components/jquery-ui/i18n/ui.datepicker-ru.js"></script>
     <script src="/bower_components/foundation/js/foundation.min.js"></script>
     <script type="text/javascript" src="/bower_components/slick/slick.min.js"></script>
-    <script type="text/javascript" src="/bower_components/jquery.snow.min.1.0.js"></script>
+    <script type="text/javascript" src="/bower_components/datetimepicker/jquery.datetimepicker.js"></script>
+    <!--<script type="text/javascript" src="/bower_components/jquery.snow.min.1.0.js"></script>-->
     <script src="/js/app.js"></script>
 <body>

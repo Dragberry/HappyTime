@@ -1,3 +1,3 @@
 <?php
-    printTitledMenu($menuBalloons, MSGmenu, $activeSubLink);
-?>
+//    printTitledMenu($menuBalloons, MSGmenu, $activeSubLink);
+//?>

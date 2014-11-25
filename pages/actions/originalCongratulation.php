@@ -8,7 +8,7 @@ $metaDescription = '
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink=MSGoriginalCongratulation;
 $headerContent = '
- <h1 class="hidden-header">
+ <h1 class="header-title">
     <a class="" href="' . $menuActions[MSGoriginalCongratulation]["link"] . '">
         Организация креативных поздравлений и признаний в любви.
     </a>

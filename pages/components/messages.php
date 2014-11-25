@@ -56,7 +56,8 @@ define("MSGaccessoriesForNewYear", "Для Нового Года");
 define("MSGallAccessories", "Все аксессуары");
 
 // Animators and Toastmaster
-define("MSGsantaClaus", "Дед Мороз и Снегурочка");
+define("MSGsantaClaus", "Дед Мороз и Снегурочка детям");
+define("MSGsantaClausForGrown", "Дед Мороз и Снегурочка взрослым");
 define("MSGoriginalCongratulation", "Оригинальное поздравление и признание в любви");
 define("MSGanimatorAndToastmasterAndSoundman", "Аниматор, тамада и звукорежиссер");
 
@@ -96,6 +97,7 @@ $menuAccessories = array(
 $menuActions = array(
     MSGanimatorAndToastmasterAndSoundman => array("link" => "/pages/actions/party.php",  visibility => true),
     MSGsantaClaus => array("link" => "/pages/actions/santaClaus.php",  visibility => true),
+//  MSGsantaClausForGrown => array("link" => "/pages/actions/santaClausForGrown.php",  visibility => true),
     MSGoriginalCongratulation => array("link" => "/pages/actions/originalCongratulation.php",  visibility => true)
 
 );

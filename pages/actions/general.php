@@ -4,7 +4,7 @@ $title = "Организация праздников. Проведение то
 $activeLink=MSGаnimatorsAndToastmaster;
 $activeSubLink="";
 $headerContent = '
- <h1 class="hidden-header">
+ <h1 class="header-title">
     <a class="" href="' . $menuActions[MSGsantaClaus]["link"] . '">
         Профессиональная организация праздников. Оригинальные сценарии. Активные поздравления. Минск!
     </a>

@@ -12,7 +12,22 @@
         номерами, шуточными сценками, забавными конкурсами, песнями с живым исполнением и танцами.
     </p>
 
-    <p class="text-center">
+    <h2 class="custom-main-color block text-center" style="font-size: small;"><strong>До Нового 2015 Года осталось всего
+        <?php
+        $datetime1 = new DateTime('2014-11-25');
+        $datetime2 = new DateTime('2015-01-01');
+        $interval = $datetime1->diff($datetime2);
+        echo $interval->format('%M месяц и %d дней' );
+        ?></strong>
+    </h2>
+    <p class="text-center" style="font-size: small;">
+        В связи с этим в нашей студии Вы можете
+        <a href=<?php echo($menuActions[MSGsantaClaus]["link"]); ?> class="custom-text-color">
+            <strong>заказать Деда Мороза к себе на дом в Минске</strong>
+        </a> вместе с его внучкой Снегурочкой.
+    </p>
+
+    <p class="text-center" >
         <a href=<?php echo($menuAdditional[MSGorderAndDelivery]["link"]); ?> class="button small">
             <?php echo(MSGfreeDelivery); ?>
         </a>
@@ -23,9 +38,9 @@
             НОВИНКА!
         </span>
         <span class="custom-minor-color block">
-            ОРГАНИЗАЦИЯ
-            КВЕСТ-ПОЗДРАВЛЕНИЙ,
-            КВЕСТ-ПРИЗНАНИЙ В ЛЮБВИ
+            <strong>ОРГАНИЗАЦИЯ
+            КВЕСТ-ПОЗДРАВЛЕНИЙ</strong>,
+            <b>КВЕСТ-ПРИЗНАНИЙ В ЛЮБВИ</b>
         </span>
         <a href=<?php echo($menuActions[MSGoriginalCongratulation]["link"]); ?> class="button small">
             <?php echo("Подробнее"); ?>
