@@ -63,6 +63,7 @@
                 } else {
                     include($_SERVER['DOCUMENT_ROOT']."/pages/components/sideBarRight.php");
                 }
+                echo($contentSideBarRight);
                 ?>
             </div>
         </div>
